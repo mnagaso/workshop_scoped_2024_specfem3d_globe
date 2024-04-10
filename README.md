@@ -39,9 +39,9 @@ ln -s $SCRATCH scratch
 ```
 - Clone this repository by:
 ```bash
-git clone (url of this repository)
+git clone https://github.com/mnagaso/workshop_scoped_2024.git
 ```
-- **go back to the aJupiter notebook interface** (switch back the browser tab)
+- **go back to the Jupiter notebook interface** (switch back the browser tab)
 - navigate to `scratch` -> `note_and_data_workshop` -> `data_processing_and_run_fwi_demo.ipynb` and open the notebook.
 - follow the instructions in the notebook.
 
