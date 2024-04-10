@@ -1,4 +1,8 @@
+<img src="https://seisscoped.org/images/scoped_logo.jpg" alt="scoped" width="50"/>
+
 # The jupyter notebook and data for the 2024 SCOPED workshop
+
+![kernel](img/kernel.png)
 
 This repository contains the jupyter notebook and data for the 2024 SCOPED workshop. Below is a brief description of the files in this repository:
 
