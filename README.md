@@ -15,37 +15,30 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 
 # How to run the notebook
 
-## 1. Open a jupyter notebook session from TACC'sAnalysis Portal
-
-- Go to the [TACC Analysis Portal](https://tap.tacc.utexas.edu/jobs/).
-- Select the parameters as shown in the image below. Set:
-    - System `Frontera`
-    - Application `Jupyter notebook`
-    - Project `**(Will we get a dedicated project id for the workshop?)**`
-    - Queue `develpment **(or dedicated node for the workshop?)**`
-    - Nodes `1`
-    - Tasks `36`
-
-(CURRENTLY, THE IMAGE IS FOR OUR INTERNAL TEST ONLY, AND WE WILL REPLACE IT LATER.) 
-
-![submit_session](img/submit_session.png)
-
-- then click the "Submit" button, then you will see the following page.
-
-![waiting session](img/waiting_session.png)
-
-- After a few minutes, you will see the `Connect` button. Click it to open the jupyter notebook session.
-
-- On the jupyter notebook interface, click `New` -> `Terminal` to open a terminal.
 - Create a symbolic link to SCRATCH directory by:
 ```bash
 ln -s $SCRATCH scratch
 ```
 - Clone this repository by:
 ```bash
+cd scratch
 git clone https://github.com/mnagaso/workshop_scoped_2024.git
 ```
-- **go back to the Jupiter notebook interface** (switch back the browser tab)
-- navigate to `scratch` -> `note_and_data_workshop` -> `data_processing_and_run_fwi_demo.ipynb` and open the notebook.
-- follow the instructions in the notebook.
+- Submit the job by:
+```bash
+cd workshop_scoped_2024
+sbatch job.jupyter
+```
+- Check the job status by:
+```bash
+squeue -u $USER
+```
+- After starting the job, you will see the url to access the jupyter lab interface. Copy the url and paste it into your browser.
+This link is something like:
+```
+tail jupyter.out
+
+TACC: created reverse ports on Frontera logins
+TACC: Your jupyter notebook server is now running at https://frontera.tacc.utexas.edu:60188/?token=ee7153b2ec3569dabea24b66de63247efed8cf2e8f203036cc2f490c58321fc7
+```
 
