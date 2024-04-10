@@ -1,0 +1,9 @@
+data
+quakeml
+simulation/OUTPUT_FILES*
+simulation/DATABASES_MPI
+simulation/SEM
+simulation/DATA/CMTSOLUTION
+simulation/DATA/STATIONS
+simulation/DATA/STATIONS_ADJOINT
+
