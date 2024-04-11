@@ -1,4 +1,4 @@
-<img src="https://seisscoped.org/images/scoped_logo.jpg" alt="scoped" width="50"/>
+<a href="https://seisscoped.org/"><img src="https://seisscoped.org/images/scoped_logo.jpg" alt="scoped" width="50" /></a>
 
 # The jupyter notebook and data for the 2024 SCOPED workshop
 
