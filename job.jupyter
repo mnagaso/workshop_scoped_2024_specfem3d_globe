@@ -60,12 +60,13 @@ echo "MNMN: load appatainer module"
 module load tacc-apptainer
 
 echo "MNMN: create conda env and install libraries"
+conda init && source ~/.bashrc
 conda create -n scoped_spec3d_glob python=3.10
 conda activate scoped_spec3d_glob
 conda install obspy cartopy pandas
 
 echo "MNMN: download custom image"
-SIF_NAME="specfem3d_globe_centos7.sif"
+SIF_NAME="specfem3d_globe_centos7_mpi.sif"
 if [ ! -f $SIF_NAME ]; then
     apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
 fi
