@@ -32,8 +32,18 @@ sbatch job.jupyter
 - Check the job status:
 ```bash
 squeue -u $USER
+        JOBID   PARTITION   NAME      USER    ST       TIME  NODES NODELIST(REASON)
+        6247768 development tap_jupy  mnagaso PD       0:00      1 (None)
 ```
-- After starting the job, you will see the url to access the jupyter lab interface. Copy the url and paste it into your browser (or Ctrl+Click on the url).
+- You will find the starting of the job by becoming `R` from `PD` for example:
+```bash
+squeue -u $USER
+        JOBID   PARTITION   NAME      USER     ST      TIME  NODES NODELIST(REASON)
+        6247768 development tap_jupy  mnagaso  R       0:00      1 c201-022
+```
+
+It takes about 1 mintue or so to finishing a initial setup. Then, you can access the jupyter notebook server by openning the link indicated at the last of the `jupyter.out` file. 
+
 This link is something like:
 ```
 tail jupyter.out
