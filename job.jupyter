@@ -64,7 +64,7 @@ conda init && source ~/.bashrc
 conda create -n scoped_spec3d_glob python=3.10 -y
 conda activate scoped_spec3d_glob
 # install from conda-forge
-conda install -c conda-forge -y obspy cartopy pandas
+conda install -c conda-forge -y obspy cartopy pandas jupyterlab
 
 echo "MNMN: download custom image"
 SIF_NAME="specfem3d_globe_centos7_mpi.sif"
