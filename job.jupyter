@@ -63,7 +63,8 @@ echo "MNMN: create conda env and install libraries"
 conda init && source ~/.bashrc
 conda create -n scoped_spec3d_glob python=3.10 -y
 conda activate scoped_spec3d_glob
-conda install obspy cartopy pandas -y
+# install from conda-forge
+conda install -c conda-forge -y obspy cartopy pandas
 
 echo "MNMN: download custom image"
 SIF_NAME="specfem3d_globe_centos7_mpi.sif"
