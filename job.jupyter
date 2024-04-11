@@ -3,18 +3,18 @@
 #-----------------------------------------------------------------------------
 # This script was generated automatically by the TACC Analytic Portal (TAP)
 #
-# This TAP job script is designed to create a jupyter notebook session on 
+# This TAP job script is designed to create a jupyter notebook session on
 # remote nodes through the SLURM batch system. Once the job
 # is scheduled, check the output of your job (which by default is
 # stored in your home directory in a file named jupyter.out)
 # and it will tell you the port number that has been setup for you so
-# that you can attach via a separate web browser to any remote login node 
+# that you can attach via a separate web browser to any remote login node
 #
 # Note: you can fine tune the SLURM submission variables below as
 # needed.  Typical items to change are the runtime limit, location of
 # the job output, and the allocation project to submit against (it is
 # commented out for now, but is required if you have multiple
-# allocations).  
+# allocations).
 #
 #-----------------------------------------------------------------------------
 #
@@ -22,7 +22,7 @@
 #SBATCH -o jupyter.out          # Name of stdout output file (%j expands to jobId)
 #SBATCH -p development          # Queue name
 #SBATCH -N 1                    # Total number of nodes requested
-#SBATCH -n 1                    # Total number of mpi tasks requested
+#SBATCH -n 36                    # Total number of mpi tasks requested
 #SBATCH -t 02:00:00                     # Run time (hh:mm:ss)
 #
 #
@@ -56,18 +56,22 @@ echo "TACC: running on node ${NODE_HOSTNAME}"
 echo "TACC: unloading xalt"
 module unload xalt
 
-echo "MNMN: load apptainer"
+echo "MNMN: load appatainer module"
 module load tacc-apptainer
+
+echo "MNMN: create conda env and install libraries"
+conda create -n scoped_spec3d_glob python=3.10
+conda activate scoped_spec3d_glob
+conda install obspy cartopy pandas
 
 echo "MNMN: download custom image"
 SIF_NAME="specfem3d_globe_centos7.sif"
 if [ ! -f $SIF_NAME ]; then
-    apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7
+    apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
 fi
 
 # use jupyter-lab if it exists, otherwise jupyter-notebook
-#JUPYTER_BIN=$(which jupyter-lab 2> /dev/null)
-JUPYTER_BIN="apptainer run specfem3d_globe_centos7.sif jupyter-lab"
+JUPYTER_BIN=$(which jupyter-lab 2> /dev/null)
 
 if [ -z "${JUPYTER_BIN}" ]; then
     JUPYTER_BIN=$(which jupyter-notebook 2> /dev/null)
@@ -192,7 +196,7 @@ if [ $(ps -fu ${USER} | grep ssh | grep login | grep -vc grep) != ${NUM_LOGINS} 
     echo "TACC: ERROR - ssh tunnels failed to launch"
     echo "TACC: ERROR - this is often due to an issue with your ssh keys"
     echo "TACC: ERROR - undo any recent mods in ${HOME}/.ssh"
-    echo "TACC: ERROR - or submit a TACC consulting ticket with this error" 
+    echo "TACC: ERROR - or submit a TACC consulting ticket with this error"
     echo "TACC: job ${SLURM_JOB_ID} execution finished at: $(date)"
     exit 1
 fi

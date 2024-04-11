@@ -15,25 +15,25 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 
 # How to run the notebook
 
-- Create a symbolic link to SCRATCH directory by:
+- Create a symbolic link to SCRATCH directory:
 ```bash
 ln -s $SCRATCH scratch
 ```
-- Clone this repository by:
+- Clone this repository:
 ```bash
 cd scratch
 git clone https://github.com/mnagaso/workshop_scoped_2024.git
 ```
-- Submit the job by:
+- Submit the job:
 ```bash
 cd workshop_scoped_2024
 sbatch job.jupyter
 ```
-- Check the job status by:
+- Check the job status:
 ```bash
 squeue -u $USER
 ```
-- After starting the job, you will see the url to access the jupyter lab interface. Copy the url and paste it into your browser.
+- After starting the job, you will see the url to access the jupyter lab interface. Copy the url and paste it into your browser (or Ctrl+Click on the url).
 This link is something like:
 ```
 tail jupyter.out
