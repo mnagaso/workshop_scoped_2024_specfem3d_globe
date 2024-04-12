@@ -56,15 +56,17 @@ echo "TACC: running on node ${NODE_HOSTNAME}"
 echo "TACC: unloading xalt"
 module unload xalt
 
+echo "MNMN: install python libraries"
+module load python3/3.9.2
+export PATH="$PATH:$HOME/.local"
+pip install --user obspy cartopy
+
+# urllib compatibility
+pip uninstall -y urllib3
+pip install -y 'urllib3<2.0'
+
 echo "MNMN: load appatainer module"
 module load tacc-apptainer
-
-echo "MNMN: create conda env and install libraries"
-conda init && source ~/.bashrc
-conda create -n scoped_spec3d_glob python=3.10 -y
-conda activate scoped_spec3d_glob
-# install from conda-forge
-conda install -c conda-forge -y obspy cartopy pandas jupyterlab
 
 echo "MNMN: download custom image"
 SIF_NAME="specfem3d_globe_centos7_mpi.sif"
