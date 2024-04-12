@@ -63,7 +63,7 @@ pip install --user obspy cartopy
 
 # urllib compatibility
 pip uninstall -y urllib3
-pip install -y 'urllib3<2.0'
+pip install --user 'urllib3<2.0'
 
 echo "MNMN: load appatainer module"
 module load tacc-apptainer
