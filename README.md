@@ -15,13 +15,12 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 
 # How to run the notebook
 
-- Create a symbolic link to SCRATCH directory:
+- go to SCRATCH directory:
 ```bash
-ln -s $SCRATCH scratch
+cd $SCRATCH
 ```
 - Clone this repository:
 ```bash
-cd scratch
 git clone https://github.com/mnagaso/workshop_scoped_2024.git
 ```
 - Submit the job:
