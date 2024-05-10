@@ -68,10 +68,22 @@ pip install --user 'urllib3<2.0'
 echo "MNMN: load appatainer module"
 module load tacc-apptainer
 
-echo "MNMN: download custom image"
+echo "MNMN: prepare the custom image"
+
+#
+SHARED_PATH="/work2/09793/mnagaso/shared_scoped_workshop"
 SIF_NAME="specfem3d_globe_centos7_mpi.sif"
+
 if [ ! -f $SIF_NAME ]; then
-    apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+    if [ ! -f $SHARED_PATH/$SIF_NAME ]; then
+        # load the image if no image exists in the shared directory
+        echo "MNMN: pull the appatainer image"
+        apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+    else
+        # create symlink to the shared directory
+        echo "MNMN: create symlink to the shared directory"
+        ln -s $SHARED_PATH/$SIF_NAME $SIF_NAME
+    fi
 fi
 
 # use jupyter-lab if it exists, otherwise jupyter-notebook
