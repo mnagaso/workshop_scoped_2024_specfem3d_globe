@@ -1,0 +1,4095 @@
+{
+    "centroid_depth": 15.5,
+time shift:       0.0000 
+half duration:    1.5000 
+latitude:        37.4981 
+longitude:      137.2176 
+depth:            9.0440 
+Mrr:       -8.448193e+24 
+Mtt:       -1.034777e+25 
+Mpp:        1.879596e+25 
+Mrt:        9.809823e+24 
+Mrp:       -2.648512e+24 
+Mtp:        7.600089e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       2.4000 
+half duration:    3.0000 
+latitude:        37.5264 
+longitude:      137.2616 
+depth:            9.0440 
+Mrr:       -5.247276e+24 
+Mtt:       -1.109316e+25 
+Mpp:        1.634043e+25 
+Mrt:        8.974034e+24 
+Mrp:       -3.754817e+23 
+Mtp:        8.986880e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       2.4000 
+half duration:    1.5000 
+latitude:        37.4695 
+longitude:      137.2468 
+depth:           11.9119 
+Mrr:       -9.448615e+24 
+Mtt:       -1.145087e+25 
+Mpp:        2.089948e+25 
+Mrt:        1.089599e+25 
+Mrp:       -2.995412e+24 
+Mtp:        8.388283e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       2.6000 
+half duration:    7.5000 
+latitude:        37.5268 
+longitude:      137.1883 
+depth:            6.1762 
+Mrr:       -1.620459e+24 
+Mtt:       -2.359082e+24 
+Mpp:        3.979542e+24 
+Mrt:        2.112723e+24 
+Mrp:       -4.061848e+23 
+Mtp:        1.799989e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       2.8000 
+half duration:   12.0000 
+latitude:        37.4698 
+longitude:      137.1735 
+depth:            9.0440 
+Mrr:       -1.718991e+24 
+Mtt:       -1.577741e+25 
+Mpp:        1.749640e+25 
+Mrt:        1.043774e+25 
+Mrp:        3.180970e+24 
+Mtp:        1.404729e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       3.4284 
+half duration:    1.5000 
+latitude:        37.5551 
+longitude:      137.2324 
+depth:            6.1762 
+Mrr:       -4.541230e+22 
+Mtt:       -1.811715e+23 
+Mpp:        2.265838e+23 
+Mrt:        1.302511e+23 
+Mrp:        1.992259e+22 
+Mtp:        1.556481e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       3.6284 
+half duration:   12.0000 
+latitude:        37.4978 
+longitude:      137.2909 
+depth:           11.9119 
+Mrr:       -2.788795e+24 
+Mtt:       -1.916029e+25 
+Mpp:        2.194909e+25 
+Mrt:        1.295966e+25 
+Mrp:        3.409485e+24 
+Mtp:        1.690472e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       3.6284 
+half duration:    9.0000 
+latitude:        37.4411 
+longitude:      137.2027 
+depth:           11.9119 
+Mrr:       -3.673521e+24 
+Mtt:       -8.861124e+24 
+Mpp:        1.253464e+25 
+Mrt:        6.958667e+24 
+Mrp:        3.506410e+22 
+Mtp:        7.292768e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       4.2284 
+half duration:    1.5000 
+latitude:        37.4984 
+longitude:      137.1443 
+depth:            6.1762 
+Mrr:       -4.269778e+24 
+Mtt:       -1.243318e+25 
+Mpp:        1.670296e+25 
+Mrt:        9.405650e+24 
+Mrp:        6.213212e+23 
+Mtp:        1.042750e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       4.6000 
+half duration:    7.5000 
+latitude:        37.4408 
+longitude:      137.2760 
+depth:           14.7798 
+Mrr:       -4.029665e+24 
+Mtt:       -8.133849e+24 
+Mpp:        1.216351e+25 
+Mrt:        6.653813e+24 
+Mrp:       -3.931540e+23 
+Mtp:        6.549318e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       5.0000 
+half duration:    1.5000 
+latitude:        37.5554 
+longitude:      137.1591 
+depth:            3.3083 
+Mrr:       -1.904483e+24 
+Mtt:       -1.550573e+24 
+Mpp:        3.455055e+24 
+Mrt:        1.728509e+24 
+Mrp:       -8.098604e+23 
+Mtp:        9.981522e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       5.2000 
+half duration:   12.0000 
+latitude:        37.5547 
+longitude:      137.3057 
+depth:            9.0440 
+Mrr:        7.263328e+23 
+Mtt:       -1.093648e+25 
+Mpp:        1.021015e+25 
+Mrt:        6.458627e+24 
+Mrp:        3.445379e+24 
+Mtp:        1.015977e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       5.2721 
+half duration:    6.0000 
+latitude:        37.5837 
+longitude:      137.2032 
+depth:            3.3083 
+Mrr:       -1.276426e+23 
+Mtt:       -3.603806e+23 
+Mpp:        4.880232e+23 
+Mrt:        2.741980e+23 
+Mrp:        1.549886e+22 
+Mtp:        3.013899e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       5.2721 
+half duration:    9.0000 
+latitude:        37.4125 
+longitude:      137.2320 
+depth:           14.7798 
+Mrr:       -5.429629e+22 
+Mtt:       -1.283033e+24 
+Mpp:        1.337329e+24 
+Mrt:        8.141908e+23 
+Mrp:        3.139731e+23 
+Mtp:        1.161175e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       5.4721 
+half duration:    1.5000 
+latitude:        37.5834 
+longitude:      137.2765 
+depth:            6.1762 
+Mrr:       -2.545649e+23 
+Mtt:       -6.315186e+23 
+Mpp:        8.860835e+23 
+Mrt:        4.930015e+23 
+Mrp:        7.182357e+21 
+Mtp:        5.213398e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       5.4721 
+half duration:   12.0000 
+latitude:        37.4691 
+longitude:      137.3201 
+depth:           14.7798 
+Mrr:       -1.519294e+24 
+Mtt:       -1.350864e+25 
+Mpp:        1.502794e+25 
+Mrt:        8.956043e+24 
+Mrp:        2.692837e+24 
+Mtp:        1.201685e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       6.0000 
+half duration:   12.0000 
+latitude:        37.4415 
+longitude:      137.1294 
+depth:            9.0440 
+Mrr:        8.661312e+23 
+Mtt:       -2.185662e+25 
+Mpp:        2.099049e+25 
+Mrt:        1.314465e+25 
+Mrp:        6.506966e+24 
+Mtp:        2.017538e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       6.0721 
+half duration:   12.0000 
+latitude:        37.5261 
+longitude:      137.3349 
+depth:           11.9119 
+Mrr:       -4.859485e+23 
+Mtt:       -1.773134e+25 
+Mpp:        1.821729e+25 
+Mrt:        1.114495e+25 
+Mrp:        4.510082e+24 
+Mtp:        1.610554e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       6.0721 
+half duration:   12.0000 
+latitude:        37.4128 
+longitude:      137.1586 
+depth:           11.9119 
+Mrr:       -2.275219e+24 
+Mtt:       -1.088146e+25 
+Mpp:        1.315668e+25 
+Mrt:        7.639958e+24 
+Mrp:        1.489126e+24 
+Mtp:        9.448138e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       6.4721 
+half duration:   12.0000 
+latitude:        37.5271 
+longitude:      137.1150 
+depth:            3.3083 
+Mrr:       -6.666469e+24 
+Mtt:       -1.154784e+25 
+Mpp:        1.821431e+25 
+Mrt:        9.829400e+24 
+Mrp:       -1.169647e+24 
+Mtp:        9.089935e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       6.8000 
+half duration:    3.0000 
+latitude:        37.4122 
+longitude:      137.3053 
+depth:           17.6477 
+Mrr:       -3.830716e+22 
+Mtt:       -1.058176e+24 
+Mpp:        1.096483e+24 
+Mrt:        6.688797e+23 
+Mrp:        2.631349e+23 
+Mtp:        9.591005e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       6.8569 
+half duration:    9.0000 
+latitude:        37.6120 
+longitude:      137.2472 
+depth:            3.3083 
+Mrr:       -4.267714e+22 
+Mtt:       -2.340921e+23 
+Mpp:        2.767692e+23 
+Mrt:        1.618195e+23 
+Mrp:        3.609032e+22 
+Mtp:        2.046386e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       7.1246 
+half duration:    1.5000 
+latitude:        37.3839 
+longitude:      137.2612 
+depth:           17.6477 
+Mrr:       -6.673662e+22 
+Mtt:       -1.901882e+23 
+Mpp:        2.569248e+23 
+Mrt:        1.444525e+23 
+Mrp:        8.584162e+21 
+Mtp:        1.591941e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       7.2000 
+half duration:   10.5000 
+latitude:        37.5840 
+longitude:      137.1299 
+depth:            0.4404 
+Mrr:       -1.933240e+23 
+Mtt:       -4.986999e+23 
+Mpp:        6.920239e+23 
+Mrt:        3.861969e+23 
+Mrp:        1.065292e+22 
+Mtp:        4.133904e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       7.2569 
+half duration:    7.5000 
+latitude:        37.3842 
+longitude:      137.1879 
+depth:           14.7798 
+Mrr:       -3.402050e+23 
+Mtt:       -1.171342e+24 
+Mpp:        1.511547e+24 
+Mrt:        8.609895e+23 
+Mrp:        9.866971e+22 
+Mtp:        9.960566e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       7.2721 
+half duration:   12.0000 
+latitude:        37.4701 
+longitude:      137.1002 
+depth:            6.1762 
+Mrr:       -2.506894e+24 
+Mtt:       -2.366181e+25 
+Mpp:        2.616871e+25 
+Mrt:        1.562497e+25 
+Mrp:        4.816589e+24 
+Mtp:        2.108278e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       7.3246 
+half duration:   10.5000 
+latitude:        37.6124 
+longitude:      137.1739 
+depth:            0.4404 
+Mrr:       -2.466098e+23 
+Mtt:       -1.874013e+23 
+Mpp:        4.340111e+23 
+Mrt:        2.155610e+23 
+Mrp:       -1.085088e+23 
+Mtp:        1.170150e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       7.4569 
+half duration:   12.0000 
+latitude:        37.4975 
+longitude:      137.3642 
+depth:           14.7798 
+Mrr:        5.919979e+23 
+Mtt:       -1.258750e+25 
+Mpp:        1.199550e+25 
+Mrt:        7.532440e+24 
+Mrp:        3.807710e+24 
+Mtp:        1.163978e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       7.5246 
+half duration:   12.0000 
+latitude:        37.4405 
+longitude:      137.3493 
+depth:           17.6477 
+Mrr:       -8.859715e+23 
+Mtt:       -6.042842e+24 
+Mpp:        6.928813e+24 
+Mrt:        4.089867e+24 
+Mrp:        1.071136e+24 
+Mtp:        5.330053e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       7.8000 
+half duration:   12.0000 
+latitude:        37.5831 
+longitude:      137.3498 
+depth:            9.0440 
+Mrr:        4.040798e+23 
+Mtt:       -7.996925e+24 
+Mpp:        7.592845e+24 
+Mrt:        4.774081e+24 
+Mrp:        2.437160e+24 
+Mtp:        7.400998e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       7.9246 
+half duration:   12.0000 
+latitude:        37.6117 
+longitude:      137.3206 
+depth:            6.1762 
+Mrr:       -4.956752e+22 
+Mtt:       -1.964580e+24 
+Mpp:        2.014147e+24 
+Mrt:        1.233096e+24 
+Mrp:        5.024680e+23 
+Mtp:        1.785387e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       8.3246 
+half duration:   12.0000 
+latitude:        37.5557 
+longitude:      137.0858 
+depth:            0.4404 
+Mrr:       -7.315902e+24 
+Mtt:       -8.142267e+24 
+Mpp:        1.545817e+25 
+Mrt:        7.989582e+24 
+Mrp:       -2.516269e+24 
+Mtp:        5.832967e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       8.5246 
+half duration:   12.0000 
+latitude:        37.5544 
+longitude:      137.3790 
+depth:           11.9119 
+Mrr:       -9.623343e+23 
+Mtt:       -9.840072e+24 
+Mpp:        1.080241e+25 
+Mrt:        6.465380e+24 
+Mrp:        2.054905e+24 
+Mtp:        8.785215e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       8.6000 
+half duration:    4.5000 
+latitude:        37.3835 
+longitude:      137.3345 
+depth:           20.5156 
+Mrr:       -9.992168e+22 
+Mtt:       -7.148770e+22 
+Mpp:        1.714094e+23 
+Mrt:        8.459747e+22 
+Mrp:       -4.517483e+22 
+Mtp:        4.334910e+22 
+{
+    "centroid_depth": 15.5,
+time shift:       8.6111 
+half duration:    4.5000 
+latitude:        37.3555 
+longitude:      137.2171 
+depth:           17.6477 
+Mrr:       -7.698587e+22 
+Mtt:       -6.650185e+22 
+Mpp:        1.434877e+23 
+Mrt:        7.223244e+22 
+Mrp:       -3.169743e+22 
+Mtp:        4.384370e+22 
+{
+    "centroid_depth": 15.5,
+time shift:       8.6111 
+half duration:    1.5000 
+latitude:        37.6407 
+longitude:      137.2180 
+depth:            0.4404 
+Mrr:       -4.895035e+23 
+Mtt:       -4.301315e+23 
+Mpp:        9.196349e+23 
+Mrt:        4.637801e+23 
+Mrp:       -1.995603e+23 
+Mtp:        2.854385e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       9.0111 
+half duration:   12.0000 
+latitude:        37.6403 
+longitude:      137.2913 
+depth:            3.3083 
+Mrr:       -2.599216e+23 
+Mtt:       -3.883323e+23 
+Mpp:        6.482539e+23 
+Mrt:        3.450154e+23 
+Mrp:       -6.244875e+22 
+Mtp:        2.978028e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       9.0111 
+half duration:   10.5000 
+latitude:        37.4688 
+longitude:      137.3934 
+depth:           17.6477 
+Mrr:       -1.030855e+23 
+Mtt:       -4.969530e+24 
+Mpp:        5.072616e+24 
+Mrt:        3.110168e+24 
+Mrp:        1.285447e+24 
+Mtp:        4.521164e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       9.0462 
+half duration:    6.0000 
+latitude:        37.3552 
+longitude:      137.2904 
+depth:           20.5156 
+Mrr:       -3.316566e+22 
+Mtt:       -1.760063e+23 
+Mpp:        2.091720e+23 
+Mrt:        1.221034e+23 
+Mrp:        2.643789e+22 
+Mtp:        1.536236e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       9.0569 
+half duration:   12.0000 
+latitude:        37.4988 
+longitude:      137.0709 
+depth:            3.3083 
+Mrr:       -1.143188e+25 
+Mtt:       -2.435252e+25 
+Mpp:        3.578440e+25 
+Mrt:        1.966511e+25 
+Mrp:       -7.678025e+23 
+Mtp:        1.974791e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       9.1246 
+half duration:    1.5000 
+latitude:        37.3845 
+longitude:      137.1146 
+depth:           11.9119 
+Mrr:       -9.569159e+24 
+Mtt:       -7.354558e+24 
+Mpp:        1.692372e+25 
+Mrt:        8.415537e+24 
+Mrp:       -4.187907e+24 
+Mtp:        4.616272e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       9.2000 
+half duration:    4.5000 
+latitude:        37.4132 
+longitude:      137.0853 
+depth:            9.0440 
+Mrr:       -9.460930e+24 
+Mtt:       -1.418675e+25 
+Mpp:        2.364768e+25 
+Mrt:        1.259025e+25 
+Mrp:       -2.258993e+24 
+Mtp:        1.088712e+25 
+{
+    "centroid_depth": 15.5,
+time shift:       9.2462 
+half duration:   12.0000 
+latitude:        37.4118 
+longitude:      137.3786 
+depth:           20.5156 
+Mrr:       -1.329912e+22 
+Mtt:       -1.893619e+23 
+Mpp:        2.026611e+23 
+Mrt:        1.223060e+23 
+Mrp:        4.292059e+22 
+Mtp:        1.702124e+23 
+{
+    "centroid_depth": 15.5,
+time shift:       9.6111 
+half duration:   12.0000 
+latitude:        37.5258 
+longitude:      137.4083 
+depth:           14.7798 
+Mrr:       -7.974481e+22 
+Mtt:       -4.798959e+24 
+Mpp:        4.878703e+24 
+Mrt:        2.995398e+24 
+Mrp:        1.254133e+24 
+Mtp:        4.370345e+24 
+{
+    "centroid_depth": 15.5,
+time shift:       9.8111 
+half duration:    1.5000 
+latitude:        37.3559 
+longitude:      137.1438 
+depth:           14.7798 
+Mrr:       -1.300238e+24 
+Mtt:       -1.007900e+24 
+Mpp:        2.308138e+24 
+Mrt:        1.148783e+24 
+Mrp:       -5.667107e+23 
+Mtp:        6.350926e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.2853 
+half duration:    4.5000 
+latitude:        37.6690 
+longitude:      137.2621 
+depth:            0.4404 
+Mrr:       -3.576024e+21 
+Mtt:       -9.142983e+21 
+Mpp:        1.271901e+22 
+Mrt:        7.093225e+21 
+Mrp:        1.748098e+20 
+Mtp:        7.571966e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      10.3246 
+half duration:   12.0000 
+latitude:        37.4418 
+longitude:      137.0561 
+depth:            6.1762 
+Mrr:       -1.188910e+25 
+Mtt:       -2.381143e+25 
+Mpp:        3.570053e+25 
+Mrt:        1.951613e+25 
+Mrp:       -1.210739e+24 
+Mtp:        1.915242e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      10.4000 
+half duration:   12.0000 
+latitude:        37.6114 
+longitude:      137.3939 
+depth:            9.0440 
+Mrr:       -3.536663e+23 
+Mtt:       -1.855471e+24 
+Mpp:        2.209137e+24 
+Mrt:        1.288854e+24 
+Mrp:        2.761025e+23 
+Mtp:        1.618622e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      10.5443 
+half duration:    3.0000 
+latitude:        37.3269 
+longitude:      137.2464 
+depth:           20.5156 
+Mrr:       -9.550005e+21 
+Mtt:       -1.447563e+22 
+Mpp:        2.402563e+22 
+Mrt:        1.280468e+22 
+Mrp:       -2.238006e+21 
+Mtp:        1.113162e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      10.5443 
+half duration:    7.5000 
+latitude:        37.4402 
+longitude:      137.4227 
+depth:           20.5156 
+Mrr:       -1.462407e+23 
+Mtt:       -1.491173e+23 
+Mpp:        2.953580e+23 
+Mrt:        1.512840e+23 
+Mrp:       -5.401053e+22 
+Mtp:        1.041242e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.6000 
+half duration:    1.5000 
+latitude:        37.3549 
+longitude:      137.3638 
+depth:           23.3834 
+Mrr:       -7.063871e+23 
+Mtt:       -5.973313e+23 
+Mpp:        1.303718e+24 
+Mrt:        6.548318e+23 
+Mrp:       -2.943399e+23 
+Mtp:        3.905318e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.6462 
+half duration:    4.5000 
+latitude:        37.6400 
+longitude:      137.3646 
+depth:            6.1762 
+Mrr:       -7.714412e+22 
+Mtt:       -4.590704e+23 
+Mpp:        5.362145e+23 
+Mrt:        3.146874e+23 
+Mrp:        7.501096e+22 
+Mtp:        4.027529e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.8111 
+half duration:   12.0000 
+latitude:        37.5274 
+longitude:      137.0417 
+depth:            0.4404 
+Mrr:       -1.157606e+25 
+Mtt:       -1.701953e+25 
+Mpp:        2.859559e+25 
+Mrt:        1.519574e+25 
+Mrp:       -2.856226e+24 
+Mtp:        1.301124e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      10.8853 
+half duration:    4.5000 
+latitude:        37.4971 
+longitude:      137.4375 
+depth:           17.6477 
+Mrr:       -8.284642e+23 
+Mtt:       -8.707821e+23 
+Mpp:        1.699246e+24 
+Mrt:        8.731017e+23 
+Mrp:       -2.988935e+23 
+Mtp:        6.136639e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.8853 
+half duration:    6.0000 
+latitude:        37.3272 
+longitude:      137.1730 
+depth:           17.6477 
+Mrr:       -1.639027e+22 
+Mtt:       -2.727296e+23 
+Mpp:        2.891199e+23 
+Mrt:        1.750328e+23 
+Mrp:        6.360418e+22 
+Mtp:        2.457584e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      10.9980 
+half duration:    4.5000 
+latitude:        37.3832 
+longitude:      137.4078 
+depth:           23.3834 
+Mrr:       -3.866585e+22 
+Mtt:       -1.385279e+23 
+Mpp:        1.771937e+23 
+Mrt:        1.011893e+23 
+Mrp:        1.268339e+22 
+Mtp:        1.181435e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      11.0462 
+half duration:    9.0000 
+latitude:        37.5827 
+longitude:      137.4231 
+depth:           11.9119 
+Mrr:        1.149353e+23 
+Mtt:       -2.835274e+24 
+Mpp:        2.720338e+24 
+Mrt:        1.704099e+24 
+Mrp:        8.457617e+23 
+Mtp:        2.617748e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      11.1980 
+half duration:   10.5000 
+latitude:        37.3266 
+longitude:      137.3197 
+depth:           23.3834 
+Mrr:        6.890965e+20 
+Mtt:       -1.860666e+22 
+Mpp:        1.791757e+22 
+Mrt:        1.120965e+22 
+Mrp:        5.508213e+21 
+Mtp:        1.716478e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      11.3443 
+half duration:    9.0000 
+latitude:        37.6687 
+longitude:      137.3354 
+depth:            3.3083 
+Mrr:       -3.484494e+22 
+Mtt:       -5.412227e+22 
+Mpp:        8.896722e+22 
+Mrt:        4.752616e+22 
+Mrp:       -7.810629e+21 
+Mtp:        4.180926e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      11.8111 
+half duration:   12.0000 
+latitude:        37.4704 
+longitude:      137.0269 
+depth:            3.3083 
+Mrr:       -1.853933e+25 
+Mtt:       -2.723951e+25 
+Mpp:        4.577884e+25 
+Mrt:        2.432542e+25 
+Mrp:       -4.579119e+24 
+Mtp:        2.082165e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      11.9443 
+half duration:    1.5000 
+latitude:        37.5541 
+longitude:      137.4523 
+depth:           14.7798 
+Mrr:       -3.667703e+22 
+Mtt:       -1.584915e+24 
+Mpp:        1.621592e+24 
+Mrt:        9.934540e+23 
+Mrp:        4.075053e+23 
+Mtp:        1.441082e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      12.1703 
+half duration:    1.5000 
+latitude:        37.4115 
+longitude:      137.4519 
+depth:           23.3834 
+Mrr:       -2.137337e+23 
+Mtt:       -1.735886e+23 
+Mpp:        3.873223e+23 
+Mrt:        1.937211e+23 
+Mrp:       -9.100406e+22 
+Mtp:        1.116289e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      12.2000 
+half duration:    6.0000 
+latitude:        37.4685 
+longitude:      137.4667 
+depth:           20.5156 
+Mrr:       -9.011518e+22 
+Mtt:       -7.174097e+22 
+Mpp:        1.618561e+23 
+Mrt:        8.078327e+22 
+Mrp:       -3.876347e+22 
+Mtp:        4.574132e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      12.2462 
+half duration:    1.5000 
+latitude:        37.3562 
+longitude:      137.0705 
+depth:           11.9119 
+Mrr:       -9.902546e+24 
+Mtt:       -6.851642e+24 
+Mpp:        1.675419e+25 
+Mrt:        8.239998e+24 
+Mrp:       -4.540363e+24 
+Mtp:        4.082978e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      12.3703 
+half duration:    9.0000 
+latitude:        37.2983 
+longitude:      137.2756 
+depth:           23.3834 
+Mrr:       -3.385366e+23 
+Mtt:       -2.787883e+23 
+Mpp:        6.173248e+23 
+Mrt:        3.092082e+23 
+Mrp:       -1.430987e+23 
+Mtp:        1.803204e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      12.4000 
+half duration:    4.5000 
+latitude:        37.3848 
+longitude:      137.0413 
+depth:            9.0440 
+Mrr:       -1.685165e+25 
+Mtt:       -1.109234e+25 
+Mpp:        2.794398e+25 
+Mrt:        1.367204e+25 
+Mrp:       -7.880947e+24 
+Mtp:        6.429367e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      12.4000 
+half duration:   12.0000 
+latitude:        37.2986 
+longitude:      137.2023 
+depth:           20.5156 
+Mrr:        3.573992e+21 
+Mtt:       -9.733021e+22 
+Mpp:        9.375622e+22 
+Mrt:        5.864932e+22 
+Mrp:        2.879329e+22 
+Mtp:        8.978107e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      12.6000 
+half duration:   12.0000 
+latitude:        37.6973 
+longitude:      137.3062 
+depth:            0.4404 
+Mrr:       -7.243112e+23 
+Mtt:       -8.551069e+23 
+Mpp:        1.579418e+24 
+Mrt:        8.212524e+23 
+Mrp:       -2.357965e+23 
+Mtp:        6.222791e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      12.7443 
+half duration:    6.0000 
+latitude:        37.3276 
+longitude:      137.0997 
+depth:           14.7798 
+Mrr:       -1.431809e+23 
+Mtt:       -1.586565e+23 
+Mpp:        3.018374e+23 
+Mrt:        1.559350e+23 
+Mrp:       -4.943608e+22 
+Mtp:        1.135205e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      13.0000 
+half duration:    1.5000 
+latitude:        37.6397 
+longitude:      137.4379 
+depth:            9.0440 
+Mrr:        7.175887e+21 
+Mtt:       -2.850722e+23 
+Mpp:        2.778963e+23 
+Mrt:        1.731120e+23 
+Mrp:        8.220401e+22 
+Mtp:        2.622361e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      13.0000 
+half duration:    4.5000 
+latitude:        37.5254 
+longitude:      137.4816 
+depth:           17.6477 
+Mrr:       -1.890292e+23 
+Mtt:       -3.149307e+23 
+Mpp:        5.039599e+23 
+Mrt:        2.709899e+23 
+Mrp:       -3.656962e+22 
+Mtp:        2.463077e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      13.0853 
+half duration:    4.5000 
+latitude:        37.4991 
+longitude:      136.9976 
+depth:            0.4404 
+Mrr:       -1.787409e+25 
+Mtt:       -1.973121e+25 
+Mpp:        3.760531e+25 
+Mrt:        1.942009e+25 
+Mrp:       -6.191743e+24 
+Mtp:        1.410303e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      13.1980 
+half duration:    9.0000 
+latitude:        37.6683 
+longitude:      137.4087 
+depth:            6.1762 
+Mrr:       -7.498709e+23 
+Mtt:       -7.732586e+23 
+Mpp:        1.523130e+24 
+Mrt:        7.810642e+23 
+Mrp:       -2.745969e+23 
+Mtp:        5.418098e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      13.4000 
+half duration:    1.5000 
+latitude:        37.2989 
+longitude:      137.1290 
+depth:           17.6477 
+Mrr:       -5.167069e+21 
+Mtt:       -3.584730e+21 
+Mpp:        8.751799e+21 
+Mrt:        4.305491e+21 
+Mrp:       -2.366514e+21 
+Mtp:        2.139241e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      13.4462 
+half duration:   12.0000 
+latitude:        37.4135 
+longitude:      137.0120 
+depth:            6.1762 
+Mrr:       -2.220754e+25 
+Mtt:       -1.458039e+25 
+Mpp:        3.678793e+25 
+Mrt:        1.799430e+25 
+Mrp:       -1.039589e+25 
+Mtp:        8.438610e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      13.5703 
+half duration:    9.0000 
+latitude:        37.6970 
+longitude:      137.3795 
+depth:            3.3083 
+Mrr:       -4.121789e+23 
+Mtt:       -3.148607e+23 
+Mpp:        7.270397e+23 
+Mrt:        3.612983e+23 
+Mrp:       -1.809129e+23 
+Mtp:        1.970778e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      13.5980 
+half duration:   12.0000 
+latitude:        37.6110 
+longitude:      137.4672 
+depth:           11.9119 
+Mrr:       -5.036576e+21 
+Mtt:       -3.755269e+21 
+Mpp:        8.791845e+21 
+Mrt:        4.357955e+21 
+Mrp:       -2.235715e+21 
+Mtp:        2.323925e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      13.8619 
+half duration:    1.5000 
+latitude:        37.4398 
+longitude:      137.4960 
+depth:           23.3834 
+Mrr:       -1.921969e+22 
+Mtt:       -5.364331e+22 
+Mpp:        7.286300e+22 
+Mrt:        4.090388e+22 
+Mrp:        2.164842e+21 
+Mtp:        4.481399e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      14.0619 
+half duration:    9.0000 
+latitude:        37.2699 
+longitude:      137.2315 
+depth:           23.3834 
+Mrr:       -3.100480e+22 
+Mtt:       -7.825827e+22 
+Mpp:        1.092631e+23 
+Mrt:        6.087406e+22 
+Mrp:        1.239987e+21 
+Mtp:        6.472404e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      14.5137 
+half duration:   10.5000 
+latitude:        37.4968 
+longitude:      137.5108 
+depth:           20.5156 
+Mrr:       -8.911089e+23 
+Mtt:       -9.185375e+23 
+Mpp:        1.809646e+24 
+Mrt:        9.279525e+23 
+Mrp:       -3.264161e+23 
+Mtp:        6.435266e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      14.6619 
+half duration:   12.0000 
+latitude:        37.7256 
+longitude:      137.3502 
+depth:            0.4404 
+Mrr:       -3.244134e+22 
+Mtt:       -3.093860e+22 
+Mpp:        6.337994e+22 
+Mrt:        3.223823e+22 
+Mrp:       -1.256393e+22 
+Mtp:        2.114091e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      14.7137 
+half duration:    4.5000 
+latitude:        37.2703 
+longitude:      137.1582 
+depth:           20.5156 
+Mrr:       -7.604792e+22 
+Mtt:       -7.219654e+22 
+Mpp:        1.482445e+23 
+Mrt:        7.536885e+22 
+Mrp:       -2.954138e+22 
+Mtp:        4.925727e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      14.7443 
+half duration:   12.0000 
+latitude:        37.4421 
+longitude:      136.9828 
+depth:            3.3083 
+Mrr:       -2.750564e+25 
+Mtt:       -2.109235e+25 
+Mpp:        4.859800e+25 
+Mrt:        2.416026e+25 
+Mrp:       -1.205070e+25 
+Mtp:        1.322549e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      14.7703 
+half duration:    7.5000 
+latitude:        37.5824 
+longitude:      137.4964 
+depth:           14.7798 
+Mrr:       -9.623990e+23 
+Mtt:       -6.339764e+23 
+Mpp:        1.596375e+24 
+Mrt:        7.811155e+23 
+Mrp:       -4.499476e+23 
+Mtp:        3.676318e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      15.3655 
+half duration:    7.5000 
+latitude:        37.6967 
+longitude:      137.4528 
+depth:            6.1762 
+Mrr:       -2.160791e+23 
+Mtt:       -5.398868e+23 
+Mpp:        7.559659e+23 
+Mrt:        4.208411e+23 
+Mrp:        7.142074e+21 
+Mtp:        4.460360e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      15.4000 
+half duration:    9.0000 
+latitude:        37.6680 
+longitude:      137.4820 
+depth:            9.0440 
+Mrr:       -7.410402e+22 
+Mtt:       -5.312669e+22 
+Mpp:        1.272307e+23 
+Mrt:        6.280713e+22 
+Mrp:       -3.347270e+22 
+Mtp:        3.224910e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      15.8000 
+half duration:    7.5000 
+latitude:        37.4708 
+longitude:      136.9536 
+depth:            0.4404 
+Mrr:       -1.718127e+25 
+Mtt:       -2.029789e+25 
+Mpp:        3.747916e+25 
+Mrt:        1.948946e+25 
+Mrp:       -5.589469e+24 
+Mtp:        1.477382e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      15.8491 
+half duration:    9.0000 
+latitude:        37.7253 
+longitude:      137.4235 
+depth:            3.3083 
+Mrr:       -1.063609e+23 
+Mtt:       -3.154089e+23 
+Mpp:        4.217697e+23 
+Mrt:        2.378134e+23 
+Mrp:        1.702706e+22 
+Mtp:        2.649591e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      15.8619 
+half duration:    7.5000 
+latitude:        37.5538 
+longitude:      137.5257 
+depth:           17.6477 
+Mrr:       -1.281737e+23 
+Mtt:       -1.509501e+23 
+Mpp:        2.791237e+23 
+Mrt:        1.451004e+23 
+Mrp:       -4.182681e+22 
+Mtp:        1.097807e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      15.9703 
+half duration:   10.5000 
+latitude:        37.2992 
+longitude:      137.0557 
+depth:           14.7798 
+Mrr:       -9.433353e+22 
+Mtt:       -1.306178e+23 
+Mpp:        2.249513e+23 
+Mrt:        1.188446e+23 
+Mrp:       -2.547244e+22 
+Mtp:        9.864574e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      15.9980 
+half duration:   12.0000 
+latitude:        37.3279 
+longitude:      137.0264 
+depth:           11.9119 
+Mrr:       -1.147580e+25 
+Mtt:       -7.652246e+24 
+Mpp:        1.912805e+25 
+Mrt:        9.371328e+24 
+Mrp:       -5.340050e+24 
+Mtp:        4.468378e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      16.0062 
+half duration:   12.0000 
+latitude:        37.4682 
+longitude:      137.5401 
+depth:           23.3834 
+Mrr:       -2.904384e+23 
+Mtt:       -5.326485e+23 
+Mpp:        8.230869e+23 
+Mrt:        4.464792e+23 
+Mrp:       -4.291995e+22 
+Mtp:        4.230342e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      16.1655 
+half duration:    7.5000 
+latitude:        37.6394 
+longitude:      137.5113 
+depth:           11.9119 
+Mrr:       -1.170008e+24 
+Mtt:       -1.037518e+24 
+Mpp:        2.207526e+24 
+Mrt:        1.114341e+24 
+Mrp:       -4.744242e+23 
+Mtp:        6.908674e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      16.2000 
+half duration:   12.0000 
+latitude:        37.3565 
+longitude:      136.9972 
+depth:            9.0440 
+Mrr:       -1.514428e+25 
+Mtt:       -1.005935e+25 
+Mpp:        2.520363e+25 
+Mrt:        1.234293e+25 
+Mrp:       -7.057749e+24 
+Mtp:        5.861037e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      16.2062 
+half duration:   12.0000 
+latitude:        37.2416 
+longitude:      137.1874 
+depth:           23.3834 
+Mrr:       -1.419025e+22 
+Mtt:       -1.898099e+22 
+Mpp:        3.317124e+22 
+Mrt:        1.746530e+22 
+Mrp:       -4.013305e+21 
+Mtp:        1.422871e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      16.2619 
+half duration:    9.0000 
+latitude:        37.2706 
+longitude:      137.0849 
+depth:           17.6477 
+Mrr:        5.793113e+20 
+Mtt:       -3.353328e+22 
+Mpp:        3.295396e+22 
+Mrt:        2.047052e+22 
+Mrp:        9.498467e+21 
+Mtp:        3.078870e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      16.6164 
+half duration:   10.5000 
+latitude:        37.7539 
+longitude:      137.3943 
+depth:            0.4404 
+Mrr:        2.146425e+22 
+Mtt:       -5.259472e+23 
+Mpp:        5.044829e+23 
+Mrt:        3.160546e+23 
+Mrp:        1.569828e+23 
+Mtp:        4.856276e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      16.7980 
+half duration:   12.0000 
+latitude:        37.3852 
+longitude:      136.9679 
+depth:            6.1762 
+Mrr:       -1.549239e+25 
+Mtt:       -1.019699e+25 
+Mpp:        2.568938e+25 
+Mrt:        1.256886e+25 
+Mrp:       -7.245439e+24 
+Mtp:        5.910196e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      17.2062 
+half duration:    7.5000 
+latitude:        37.2419 
+longitude:      137.1141 
+depth:           20.5156 
+Mrr:       -4.231179e+22 
+Mtt:       -2.880685e+22 
+Mpp:        7.111865e+22 
+Mrt:        3.491846e+22 
+Mrp:       -1.952775e+22 
+Mtp:        1.701702e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      17.2062 
+half duration:   12.0000 
+latitude:        37.5251 
+longitude:      137.5549 
+depth:           20.5156 
+Mrr:       -1.266854e+24 
+Mtt:       -9.948590e+23 
+Mpp:        2.261713e+24 
+Mrt:        1.127213e+24 
+Mrp:       -5.486672e+23 
+Mtp:        6.305240e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      17.4491 
+half duration:    3.0000 
+latitude:        37.6107 
+longitude:      137.5405 
+depth:           14.7798 
+Mrr:       -1.440774e+24 
+Mtt:       -1.972692e+24 
+Mpp:        3.413466e+24 
+Mrt:        1.801394e+24 
+Mrp:       -3.951012e+23 
+Mtp:        1.486284e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      17.5421 
+half duration:    4.5000 
+latitude:        37.7250 
+longitude:      137.4969 
+depth:            6.1762 
+Mrr:       -1.403689e+24 
+Mtt:       -2.541963e+24 
+Mpp:        3.945652e+24 
+Mrt:        2.137874e+24 
+Mrp:       -2.162277e+23 
+Mtp:        2.014966e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      17.7602 
+half duration:    4.5000 
+latitude:        37.7536 
+longitude:      137.4676 
+depth:            3.3083 
+Mrr:       -1.219262e+24 
+Mtt:       -1.383740e+24 
+Mpp:        2.603002e+24 
+Mrt:        1.348058e+24 
+Mrp:       -4.120796e+23 
+Mtp:        9.965820e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      17.7703 
+half duration:   12.0000 
+latitude:        37.4138 
+longitude:      136.9387 
+depth:            3.3083 
+Mrr:       -1.793211e+25 
+Mtt:       -1.242847e+25 
+Mpp:        3.036059e+25 
+Mrt:        1.493451e+25 
+Mrp:       -8.216209e+24 
+Mtp:        7.413007e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      17.8000 
+half duration:    6.0000 
+latitude:        37.6963 
+longitude:      137.5261 
+depth:            9.0440 
+Mrr:       -5.851978e+23 
+Mtt:       -5.692403e+23 
+Mpp:        1.154438e+24 
+Mrt:        5.884185e+23 
+Mrp:       -2.236026e+23 
+Mtp:        3.915482e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      18.4315 
+half duration:    6.0000 
+latitude:        37.7823 
+longitude:      137.4384 
+depth:            0.4404 
+Mrr:       -2.003835e+23 
+Mtt:       -3.729081e+23 
+Mpp:        5.732916e+23 
+Mrt:        3.113852e+23 
+Mrp:       -2.813853e+22 
+Mtp:        2.968175e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      18.5421 
+half duration:    6.0000 
+latitude:        37.2133 
+longitude:      137.1434 
+depth:           23.3834 
+Mrr:       -7.347357e+22 
+Mtt:       -5.831485e+22 
+Mpp:        1.317884e+23 
+Mrt:        6.575528e+22 
+Mrp:       -3.165335e+22 
+Mtp:        3.713179e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      18.5421 
+half duration:    1.5000 
+latitude:        37.6677 
+longitude:      137.5553 
+depth:           11.9119 
+Mrr:       -1.011188e+24 
+Mtt:       -1.053533e+24 
+Mpp:        2.064721e+24 
+Mrt:        1.059924e+24 
+Mrp:       -3.673485e+23 
+Mtp:        7.405029e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      18.5421 
+half duration:   10.5000 
+latitude:        37.4965 
+longitude:      137.5841 
+depth:           23.3834 
+Mrr:       -6.708803e+23 
+Mtt:       -1.470879e+24 
+Mpp:        2.141759e+24 
+Mrt:        1.179826e+24 
+Mrp:       -3.369907e+22 
+Mtp:        1.197081e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      18.6164 
+half duration:   12.0000 
+latitude:        37.5821 
+longitude:      137.5697 
+depth:           17.6477 
+Mrr:       -2.199892e+24 
+Mtt:       -2.572554e+24 
+Mpp:        4.772446e+24 
+Mrt:        2.479139e+24 
+Mrp:       -7.228572e+23 
+Mtp:        1.867511e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      18.6619 
+half duration:   12.0000 
+latitude:        37.4425 
+longitude:      136.9095 
+depth:            0.4404 
+Mrr:       -9.003830e+24 
+Mtt:       -1.465321e+25 
+Mpp:        2.365704e+25 
+Mrt:        1.269318e+25 
+Mrp:       -1.836446e+24 
+Mtp:        1.141433e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      19.3245 
+half duration:    4.5000 
+latitude:        37.7533 
+longitude:      137.5409 
+depth:            6.1762 
+Mrr:       -9.238010e+23 
+Mtt:       -2.839154e+24 
+Mpp:        3.762955e+24 
+Mrt:        2.127071e+24 
+Mrp:        1.750045e+23 
+Mtp:        2.392434e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      19.4164 
+half duration:   10.5000 
+latitude:        37.2423 
+longitude:      137.0408 
+depth:           17.6477 
+Mrr:       -7.891084e+22 
+Mtt:       -5.313016e+22 
+Mpp:        1.320410e+23 
+Mrt:        6.475551e+22 
+Mrp:       -3.658062e+22 
+Mtp:        3.119320e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      19.4491 
+half duration:   12.0000 
+latitude:        37.2709 
+longitude:      137.0116 
+depth:           14.7798 
+Mrr:       -3.408395e+24 
+Mtt:       -2.400242e+24 
+Mpp:        5.808637e+24 
+Mrt:        2.862058e+24 
+Mrp:       -1.551351e+24 
+Mtp:        1.443692e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      19.5655 
+half duration:   12.0000 
+latitude:        37.2996 
+longitude:      136.9823 
+depth:           11.9119 
+Mrr:       -1.554464e+25 
+Mtt:       -1.043762e+25 
+Mpp:        2.598227e+25 
+Mrt:        1.273860e+25 
+Mrp:       -7.213765e+24 
+Mtp:        6.118701e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      19.6000 
+half duration:    1.5000 
+latitude:        37.7246 
+longitude:      137.5702 
+depth:            9.0440 
+Mrr:       -8.394053e+22 
+Mtt:       -6.316558e+22 
+Mpp:        1.471061e+23 
+Mrt:        7.298835e+22 
+Mrp:       -3.710316e+22 
+Mtp:        3.926088e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      19.6924 
+half duration:    3.0000 
+latitude:        37.7819 
+longitude:      137.5117 
+depth:            3.3083 
+Mrr:       -1.211965e+24 
+Mtt:       -1.573049e+24 
+Mpp:        2.785015e+24 
+Mrt:        1.461992e+24 
+Mrp:       -3.558524e+23 
+Mtp:        1.171284e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      19.7602 
+half duration:    9.0000 
+latitude:        37.6390 
+longitude:      137.5846 
+depth:           14.7798 
+Mrr:       -9.094833e+22 
+Mtt:       -1.492578e+23 
+Mpp:        2.402061e+23 
+Mrt:        1.289833e+23 
+Mrp:       -1.821140e+22 
+Mtp:        1.164351e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      19.8000 
+half duration:   12.0000 
+latitude:        37.3282 
+longitude:      136.9531 
+depth:            9.0440 
+Mrr:       -1.167760e+25 
+Mtt:       -7.686150e+24 
+Mpp:        1.936375e+25 
+Mrt:        9.473971e+24 
+Mrp:       -5.461345e+24 
+Mtp:        4.454914e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      19.8222 
+half duration:    1.5000 
+latitude:        37.2136 
+longitude:      137.0701 
+depth:           20.5156 
+Mrr:       -5.378003e+22 
+Mtt:       -5.334879e+22 
+Mpp:        1.071288e+23 
+Mrt:        5.471524e+22 
+Mrp:       -2.026753e+22 
+Mtp:        3.693011e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      19.8222 
+half duration:   10.5000 
+latitude:        37.5534 
+longitude:      137.5990 
+depth:           20.5156 
+Mrr:       -2.577362e+24 
+Mtt:       -2.885629e+24 
+Mpp:        5.462992e+24 
+Mrt:        2.825281e+24 
+Mrp:       -8.818074e+23 
+Mtp:        2.070604e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      20.1655 
+half duration:   12.0000 
+latitude:        37.3569 
+longitude:      136.9239 
+depth:            6.1762 
+Mrr:       -7.153325e+24 
+Mtt:       -5.069459e+24 
+Mpp:        1.222278e+25 
+Mrt:        6.026454e+24 
+Mrp:       -3.247176e+24 
+Mtp:        3.059172e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      20.3245 
+half duration:    1.5000 
+latitude:        37.6960 
+longitude:      137.5994 
+depth:           11.9119 
+Mrr:       -4.971436e+21 
+Mtt:       -6.228997e+22 
+Mpp:        6.726140e+22 
+Mrt:        4.047375e+22 
+Mrp:        1.373264e+22 
+Mtp:        5.585933e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      20.4880 
+half duration:    1.5000 
+latitude:        37.8106 
+longitude:      137.4825 
+depth:            0.4404 
+Mrr:       -6.592515e+23 
+Mtt:       -6.029500e+23 
+Mpp:        1.262202e+24 
+Mrt:        6.392163e+23 
+Mrp:       -2.623257e+23 
+Mtp:        4.060546e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      20.6205 
+half duration:    9.0000 
+latitude:        37.1850 
+longitude:      137.0993 
+depth:           23.3834 
+Mrr:       -3.982210e+22 
+Mtt:       -2.737328e+22 
+Mpp:        6.719539e+22 
+Mrt:        3.302525e+22 
+Mrp:       -1.830757e+22 
+Mtp:        1.625479e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      20.8491 
+half duration:    7.5000 
+latitude:        37.3855 
+longitude:      136.8946 
+depth:            3.3083 
+Mrr:        1.360251e+24 
+Mtt:       -1.786072e+25 
+Mpp:        1.650047e+25 
+Mrt:        1.047732e+25 
+Mrp:        5.739330e+24 
+Mtp:        1.663060e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      21.0315 
+half duration:   10.5000 
+latitude:        37.6104 
+longitude:      137.6138 
+depth:           17.6477 
+Mrr:       -5.395634e+24 
+Mtt:       -4.209514e+24 
+Mpp:        9.605148e+24 
+Mrt:        4.783807e+24 
+Mrp:       -2.344348e+24 
+Mtp:        2.660151e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      21.1108 
+half duration:    1.5000 
+latitude:        37.7816 
+longitude:      137.5850 
+depth:            6.1762 
+Mrr:       -9.387584e+23 
+Mtt:       -3.724862e+24 
+Mpp:        4.663620e+24 
+Mrt:        2.680007e+24 
+Mrp:        4.063156e+23 
+Mtp:        3.198984e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      21.2000 
+half duration:    1.5000 
+latitude:        37.7530 
+longitude:      137.6142 
+depth:            9.0440 
+Mrr:       -1.473853e+24 
+Mtt:       -1.805494e+24 
+Mpp:        3.279347e+24 
+Mrt:        1.711551e+24 
+Mrp:       -4.619873e+23 
+Mtp:        1.326118e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      21.2205 
+half duration:   10.5000 
+latitude:        37.5248 
+longitude:      137.6282 
+depth:           23.3834 
+Mrr:       -2.116483e+24 
+Mtt:       -3.076014e+24 
+Mpp:        5.192497e+24 
+Mrt:        2.756228e+24 
+Mrp:       -5.319287e+23 
+Mtp:        2.346226e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      21.4924 
+half duration:    7.5000 
+latitude:        37.6674 
+longitude:      137.6286 
+depth:           14.7798 
+Mrr:       -1.696278e+24 
+Mtt:       -1.270047e+24 
+Mpp:        2.966326e+24 
+Mrt:        1.470998e+24 
+Mrp:       -7.515281e+23 
+Mtp:        7.875276e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      21.6391 
+half duration:    1.5000 
+latitude:        37.8103 
+longitude:      137.5558 
+depth:            3.3083 
+Mrr:       -5.176971e+23 
+Mtt:       -2.276837e+24 
+Mpp:        2.794534e+24 
+Mrt:        1.615441e+24 
+Mrp:        2.846601e+23 
+Mtp:        1.967757e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      21.8164 
+half duration:    1.5000 
+latitude:        37.4141 
+longitude:      136.8654 
+depth:            0.4404 
+Mrr:        1.081816e+24 
+Mtt:       -1.123997e+25 
+Mpp:        1.015815e+25 
+Mrt:        6.502085e+24 
+Mrp:        3.757866e+24 
+Mtp:        1.051559e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      21.8315 
+half duration:    7.5000 
+latitude:        37.2140 
+longitude:      136.9967 
+depth:           17.6477 
+Mrr:       -2.035931e+22 
+Mtt:       -4.034179e+22 
+Mpp:        6.070110e+22 
+Mrt:        3.315230e+22 
+Mrp:       -2.191321e+21 
+Mtp:        3.240069e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      21.9108 
+half duration:    6.0000 
+latitude:        37.7243 
+longitude:      137.6435 
+depth:           11.9119 
+Mrr:       -5.080702e+23 
+Mtt:       -5.606789e+23 
+Mpp:        1.068749e+24 
+Mrt:        5.519039e+23 
+Mrp:       -1.760489e+23 
+Mtp:        4.007135e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      22.1245 
+half duration:    7.5000 
+latitude:        37.5817 
+longitude:      137.6430 
+depth:           20.5156 
+Mrr:       -7.459303e+24 
+Mtt:       -7.770266e+24 
+Mpp:        1.522957e+25 
+Mrt:        7.817952e+24 
+Mrp:       -2.710230e+24 
+Mtp:        5.461233e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      22.1245 
+half duration:   12.0000 
+latitude:        37.1853 
+longitude:      137.0260 
+depth:           20.5156 
+Mrr:       -1.595358e+22 
+Mtt:       -1.136997e+23 
+Mpp:        1.296533e+23 
+Mrt:        7.666320e+22 
+Mrp:        2.061748e+22 
+Mtp:        1.004460e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      22.1602 
+half duration:   10.5000 
+latitude:        37.2426 
+longitude:      136.9675 
+depth:           14.7798 
+Mrr:       -6.424980e+24 
+Mtt:       -4.315118e+24 
+Mpp:        1.074010e+25 
+Mrt:        5.265786e+24 
+Mrp:       -2.981354e+24 
+Mtp:        2.529917e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      22.3737 
+half duration:    1.5000 
+latitude:        37.8389 
+longitude:      137.5265 
+depth:            0.4404 
+Mrr:       -4.783799e+23 
+Mtt:       -6.972270e+23 
+Mpp:        1.175607e+24 
+Mrt:        6.241940e+23 
+Mrp:       -1.196942e+23 
+Mtp:        5.321075e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      22.7421 
+half duration:    9.0000 
+latitude:        37.2712 
+longitude:      136.9383 
+depth:           11.9119 
+Mrr:       -1.933560e+25 
+Mtt:       -1.291405e+25 
+Mpp:        3.224966e+25 
+Mrt:        1.580260e+25 
+Mrp:       -8.991813e+24 
+Mtp:        7.547768e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      22.8000 
+half duration:    3.0000 
+latitude:        37.7813 
+longitude:      137.6583 
+depth:            9.0440 
+Mrr:       -3.334103e+23 
+Mtt:       -6.781396e+23 
+Mpp:        1.011550e+24 
+Mrt:        5.537115e+23 
+Mrp:       -3.112701e+22 
+Mtp:        5.465957e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      22.8047 
+half duration:   12.0000 
+latitude:        37.1567 
+longitude:      137.0552 
+depth:           23.3834 
+Mrr:       -1.539338e+23 
+Mtt:       -1.376475e+23 
+Mpp:        2.915813e+23 
+Mrt:        1.473168e+23 
+Mrp:       -6.210685e+22 
+Mtp:        9.194176e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      22.8880 
+half duration:    9.0000 
+latitude:        37.6387 
+longitude:      137.6579 
+depth:           17.6477 
+Mrr:       -7.915723e+24 
+Mtt:       -6.768283e+24 
+Mpp:        1.468401e+25 
+Mrt:        7.384080e+24 
+Mrp:       -3.278046e+24 
+Mtp:        4.444511e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      22.8998 
+half duration:   10.5000 
+latitude:        37.8099 
+longitude:      137.6291 
+depth:            6.1762 
+Mrr:       -6.331867e+23 
+Mtt:       -1.034393e+24 
+Mpp:        1.667580e+24 
+Mrt:        8.950570e+23 
+Mrp:       -1.280801e+23 
+Mtp:        8.062866e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      23.0000 
+half duration:   12.0000 
+latitude:        37.2999 
+longitude:      136.9090 
+depth:            9.0440 
+Mrr:       -1.022975e+25 
+Mtt:       -7.161308e+24 
+Mpp:        1.739105e+25 
+Mrt:        8.563682e+24 
+Mrp:       -4.667727e+24 
+Mtp:        4.294029e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      23.0391 
+half duration:    9.0000 
+latitude:        37.6957 
+longitude:      137.6727 
+depth:           14.7798 
+Mrr:       -2.136058e+24 
+Mtt:       -1.751111e+24 
+Mpp:        3.887169e+24 
+Mrt:        1.946094e+24 
+Mrp:       -9.050712e+23 
+Mtp:        1.130492e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      23.3421 
+half duration:    7.5000 
+latitude:        37.3285 
+longitude:      136.8798 
+depth:            6.1762 
+Mrr:       -3.063642e+24 
+Mtt:       -2.076178e+24 
+Mpp:        5.139820e+24 
+Mrt:        2.522377e+24 
+Mrp:       -1.416551e+24 
+Mtp:        1.223343e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      23.3961 
+half duration:    1.5000 
+latitude:        37.8386 
+longitude:      137.5999 
+depth:            3.3083 
+Mrr:       -4.449284e+23 
+Mtt:       -5.996230e+23 
+Mpp:        1.044551e+24 
+Mrt:        5.503844e+23 
+Mrp:       -1.246154e+23 
+Mtp:        4.502338e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      23.4997 
+half duration:   10.5000 
+latitude:        37.7526 
+longitude:      137.6876 
+depth:           11.9119 
+Mrr:       -1.050556e+22 
+Mtt:       -3.817585e+22 
+Mpp:        4.868141e+22 
+Mrt:        2.782524e+22 
+Mrp:        3.592376e+21 
+Mtp:        3.259132e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      23.6046 
+half duration:    6.0000 
+latitude:        37.5531 
+longitude:      137.6723 
+depth:           23.3834 
+Mrr:       -5.238298e+24 
+Mtt:       -5.061434e+24 
+Mpp:        1.029973e+25 
+Mrt:        5.246121e+24 
+Mrp:       -2.010797e+24 
+Mtp:        3.473768e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      23.6880 
+half duration:    9.0000 
+latitude:        37.1856 
+longitude:      136.9527 
+depth:           17.6477 
+Mrr:       -1.179854e+23 
+Mtt:       -1.989140e+23 
+Mpp:        3.168994e+23 
+Mrt:        1.705905e+23 
+Mrp:       -2.218736e+22 
+Mtp:        1.558811e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      23.7602 
+half duration:    4.5000 
+latitude:        37.3572 
+longitude:      136.8506 
+depth:            3.3083 
+Mrr:       -1.250438e+24 
+Mtt:       -1.201308e+25 
+Mpp:        1.326352e+25 
+Mrt:        7.923753e+24 
+Mrp:        2.459807e+24 
+Mtp:        1.070862e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      23.8885 
+half duration:    6.0000 
+latitude:        37.1570 
+longitude:      136.9819 
+depth:           20.5156 
+Mrr:       -6.179011e+20 
+Mtt:       -3.569057e+22 
+Mpp:        3.630847e+22 
+Mrt:        2.228727e+22 
+Mrp:        9.311117e+21 
+Mtp:        3.249743e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      24.0806 
+half duration:    3.0000 
+latitude:        37.8672 
+longitude:      137.5706 
+depth:            0.4404 
+Mrr:       -1.133647e+23 
+Mtt:       -2.684521e+23 
+Mpp:        3.818168e+23 
+Mrt:        2.116558e+23 
+Mrp:       -2.788113e+20 
+Mtp:        2.204811e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      24.0885 
+half duration:    6.0000 
+latitude:        37.6101 
+longitude:      137.6871 
+depth:           20.5156 
+Mrr:       -9.093378e+24 
+Mtt:       -9.236340e+24 
+Mpp:        1.832972e+25 
+Mrt:        9.384801e+24 
+Mrp:       -3.368192e+24 
+Mtp:        6.441702e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      24.0924 
+half duration:    9.0000 
+latitude:        37.2143 
+longitude:      136.9234 
+depth:           14.7798 
+Mrr:       -3.748582e+24 
+Mtt:       -2.553971e+24 
+Mpp:        6.302553e+24 
+Mrt:        3.094717e+24 
+Mrp:       -1.729543e+24 
+Mtp:        1.509301e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      24.3737 
+half duration:    7.5000 
+latitude:        37.6670 
+longitude:      137.7020 
+depth:           17.6477 
+Mrr:       -6.538949e+24 
+Mtt:       -4.583007e+24 
+Mpp:        1.112196e+25 
+Mrt:        5.477339e+24 
+Mrp:       -2.982177e+24 
+Mtp:        2.749750e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      24.3961 
+half duration:    7.5000 
+latitude:        37.7240 
+longitude:      137.7168 
+depth:           14.7798 
+Mrr:       -1.276505e+24 
+Mtt:       -1.204711e+24 
+Mpp:        2.481216e+24 
+Mrt:        1.260694e+24 
+Mrp:       -4.978121e+23 
+Mtp:        8.202757e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      24.6000 
+half duration:    1.5000 
+latitude:        37.8096 
+longitude:      137.7024 
+depth:            9.0440 
+Mrr:       -5.042953e+22 
+Mtt:       -8.105605e+22 
+Mpp:        1.314856e+23 
+Mrt:        7.046646e+22 
+Mrp:       -1.056193e+22 
+Mtp:        6.300237e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      24.6315 
+half duration:    7.5000 
+latitude:        37.3858 
+longitude:      136.8213 
+depth:            0.4404 
+Mrr:       -6.853618e+23 
+Mtt:       -4.732592e+24 
+Mpp:        5.417954e+24 
+Mrt:        3.199630e+24 
+Mrp:        8.443873e+23 
+Mtp:        4.176229e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      24.6680 
+half duration:    7.5000 
+latitude:        37.1283 
+longitude:      137.0111 
+depth:           23.3834 
+Mrr:       -2.105261e+17 
+Mtt:       -2.073054e+18 
+Mpp:        2.283581e+18 
+Mrt:        1.365245e+18 
+Mrp:        4.278804e+17 
+Mtp:        1.849107e+18 
+{
+    "centroid_depth": 15.5,
+time shift:      24.6907 
+half duration:    1.5000 
+latitude:        37.8382 
+longitude:      137.6732 
+depth:            6.1762 
+Mrr:       -1.566587e+22 
+Mtt:       -1.107882e+23 
+Mpp:        1.264541e+23 
+Mrt:        7.474901e+22 
+Mrp:        2.001139e+22 
+Mtp:        9.784729e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      24.9245 
+half duration:    6.0000 
+latitude:        37.2429 
+longitude:      136.8942 
+depth:           11.9119 
+Mrr:       -1.671300e+25 
+Mtt:       -1.102815e+25 
+Mpp:        2.774114e+25 
+Mrt:        1.357627e+25 
+Mrp:       -7.808739e+24 
+Mtp:        6.401224e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.0907 
+half duration:    6.0000 
+latitude:        37.7810 
+longitude:      137.7316 
+depth:           11.9119 
+Mrr:       -4.601931e+23 
+Mtt:       -1.174175e+24 
+Mpp:        1.634368e+24 
+Mrt:        9.113210e+23 
+Mrp:        2.183710e+22 
+Mtp:        9.722104e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      25.1607 
+half duration:    6.0000 
+latitude:        37.8669 
+longitude:      137.6439 
+depth:            3.3083 
+Mrr:       -4.971184e+22 
+Mtt:       -1.916656e+23 
+Mpp:        2.413774e+23 
+Mrt:        1.384716e+23 
+Mrp:        1.999709e+22 
+Mtp:        1.642961e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      25.1737 
+half duration:    3.0000 
+latitude:        37.1573 
+longitude:      136.9086 
+depth:           17.6477 
+Mrr:       -4.610923e+22 
+Mtt:       -3.570403e+22 
+Mpp:        8.181326e+22 
+Mrt:        4.071466e+22 
+Mrp:       -2.010718e+22 
+Mtp:        2.248676e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      25.2000 
+half duration:    6.0000 
+latitude:        37.2716 
+longitude:      136.8650 
+depth:            9.0440 
+Mrr:       -8.950691e+24 
+Mtt:       -7.399674e+24 
+Mpp:        1.635037e+25 
+Mrt:        8.192982e+24 
+Mrp:       -3.775631e+24 
+Mtp:        4.793790e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.2806 
+half duration:    6.0000 
+latitude:        37.6953 
+longitude:      137.7460 
+depth:           17.6477 
+Mrr:       -3.310356e+24 
+Mtt:       -3.739419e+24 
+Mpp:        7.049775e+24 
+Mrt:        3.649236e+24 
+Mrp:       -1.123578e+24 
+Mtp:        2.689766e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.4391 
+half duration:    3.0000 
+latitude:        37.1860 
+longitude:      136.8793 
+depth:           14.7798 
+Mrr:       -5.752647e+22 
+Mtt:       -2.853497e+23 
+Mpp:        3.428762e+23 
+Mrt:        1.994808e+23 
+Mrp:        4.043263e+22 
+Mtp:        2.482341e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      25.4680 
+half duration:    4.5000 
+latitude:        37.5814 
+longitude:      137.7164 
+depth:           23.3834 
+Mrr:       -7.040402e+24 
+Mtt:       -6.837425e+24 
+Mpp:        1.387783e+25 
+Mrt:        7.072361e+24 
+Mrp:       -2.693111e+24 
+Mtp:        4.700588e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.4977 
+half duration:   12.0000 
+latitude:        37.6384 
+longitude:      137.7312 
+depth:           20.5156 
+Mrr:       -1.051610e+25 
+Mtt:       -7.188706e+24 
+Mpp:        1.770481e+25 
+Mrt:        8.696542e+24 
+Mrp:       -4.845478e+24 
+Mtp:        4.255988e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.4977 
+half duration:    3.0000 
+latitude:        37.1287 
+longitude:      136.9378 
+depth:           20.5156 
+Mrr:       -7.701144e+21 
+Mtt:       -8.047132e+21 
+Mpp:        1.574828e+22 
+Mrt:        8.086822e+21 
+Mrp:       -2.791313e+21 
+Mtp:        5.661100e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      25.5245 
+half duration:    6.0000 
+latitude:        37.3002 
+longitude:      136.8357 
+depth:            6.1762 
+Mrr:       -8.418250e+24 
+Mtt:       -7.344817e+24 
+Mpp:        1.576307e+25 
+Mrt:        7.943529e+24 
+Mrp:       -3.446196e+24 
+Mtp:        4.860942e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.7607 
+half duration:    6.0000 
+latitude:        37.7523 
+longitude:      137.7609 
+depth:           14.7798 
+Mrr:       -1.721062e+24 
+Mtt:       -1.568796e+24 
+Mpp:        3.289858e+24 
+Mrt:        1.665495e+24 
+Mrp:       -6.862730e+23 
+Mtp:        1.055228e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      25.8035 
+half duration:    4.5000 
+latitude:        37.8955 
+longitude:      137.6147 
+depth:            0.4404 
+Mrr:       -5.936643e+22 
+Mtt:       -3.019905e+23 
+Mpp:        3.613569e+23 
+Mrt:        2.105006e+23 
+Mrp:        4.377027e+22 
+Mtp:        2.630442e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      25.9108 
+half duration:    1.5000 
+latitude:        37.2146 
+longitude:      136.8501 
+depth:           11.9119 
+Mrr:        1.097397e+24 
+Mtt:       -1.239883e+25 
+Mpp:        1.130143e+25 
+Mrt:        7.211310e+24 
+Mrp:        4.083246e+24 
+Mtp:        1.157862e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      26.0924 
+half duration:    3.0000 
+latitude:        37.3289 
+longitude:      136.8065 
+depth:            3.3083 
+Mrr:       -1.878084e+25 
+Mtt:       -2.188845e+25 
+Mpp:        4.066929e+25 
+Mrt:        2.111920e+25 
+Mrp:       -6.191246e+24 
+Mtp:        1.587571e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      26.1913 
+half duration:    6.0000 
+latitude:        37.1000 
+longitude:      136.9671 
+depth:           23.3834 
+Mrr:       -9.695192e+22 
+Mtt:       -1.803743e+23 
+Mpp:        2.773262e+23 
+Mrt:        1.506269e+23 
+Mrp:       -1.362807e+22 
+Mtp:        1.435636e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      26.2000 
+half duration:    6.0000 
+latitude:        37.8379 
+longitude:      137.7465 
+depth:            9.0440 
+Mrr:       -2.914049e+23 
+Mtt:       -5.987104e+23 
+Mpp:        8.901152e+23 
+Mrt:        4.876604e+23 
+Mrp:       -2.557080e+22 
+Mtp:        4.832248e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      26.2035 
+half duration:    4.5000 
+latitude:        37.7237 
+longitude:      137.7901 
+depth:           17.6477 
+Mrr:       -2.328771e+24 
+Mtt:       -2.331825e+24 
+Mpp:        4.660597e+24 
+Mrt:        2.382683e+24 
+Mrp:       -8.717087e+23 
+Mtp:        1.619006e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      26.3407 
+half duration:    9.0000 
+latitude:        37.6667 
+longitude:      137.7753 
+depth:           20.5156 
+Mrr:       -6.365487e+24 
+Mtt:       -4.436498e+24 
+Mpp:        1.080198e+25 
+Mrt:        5.316644e+24 
+Mrp:       -2.909851e+24 
+Mtp:        2.654009e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      26.4000 
+half duration:    6.0000 
+latitude:        37.2433 
+longitude:      136.8209 
+depth:            9.0440 
+Mrr:        2.276516e+24 
+Mtt:       -2.460332e+25 
+Mpp:        2.232681e+25 
+Mrt:        1.426954e+25 
+Mrp:        8.166474e+24 
+Mtp:        2.299756e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      26.4806 
+half duration:   12.0000 
+latitude:        37.1290 
+longitude:      136.8645 
+depth:           17.6477 
+Mrr:       -9.272737e+21 
+Mtt:       -5.311233e+22 
+Mpp:        6.238506e+22 
+Mrt:        3.654859e+22 
+Mrp:        8.453659e+21 
+Mtp:        4.652008e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      26.4832 
+half duration:   12.0000 
+latitude:        37.8666 
+longitude:      137.7172 
+depth:            6.1762 
+Mrr:       -1.376699e+23 
+Mtt:       -3.021516e+23 
+Mpp:        4.398215e+23 
+Mrt:        2.423045e+23 
+Mrp:       -6.829447e+21 
+Mtp:        2.459391e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      26.4832 
+half duration:    9.0000 
+latitude:        37.8093 
+longitude:      137.7757 
+depth:           11.9119 
+Mrr:       -1.104472e+24 
+Mtt:       -8.527501e+23 
+Mpp:        1.957222e+24 
+Mrt:        9.737212e+23 
+Mrp:       -4.823103e+23 
+Mtp:        5.363644e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      26.5961 
+half duration:    9.0000 
+latitude:        37.1576 
+longitude:      136.8353 
+depth:           14.7798 
+Mrr:       -3.023347e+22 
+Mtt:       -5.671844e+22 
+Mpp:        8.695191e+22 
+Mrt:        4.726201e+22 
+Mrp:       -4.121746e+21 
+Mtp:        4.519909e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      26.6998 
+half duration:    1.5000 
+latitude:        37.1863 
+longitude:      136.8060 
+depth:           11.9119 
+Mrr:        4.512429e+23 
+Mtt:       -5.941692e+24 
+Mpp:        5.490449e+24 
+Mrt:        3.485984e+24 
+Mrp:        1.908472e+24 
+Mtp:        5.532191e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      26.7310 
+half duration:    4.5000 
+latitude:        37.7806 
+longitude:      137.8049 
+depth:           14.7798 
+Mrr:       -1.952088e+24 
+Mtt:       -1.905737e+24 
+Mpp:        3.857824e+24 
+Mrt:        1.967079e+24 
+Mrp:       -7.440158e+23 
+Mtp:        1.312407e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      26.7913 
+half duration:    1.5000 
+latitude:        37.6097 
+longitude:      137.7604 
+depth:           23.3834 
+Mrr:       -6.306050e+24 
+Mtt:       -6.183694e+24 
+Mpp:        1.248974e+25 
+Mrt:        6.371383e+24 
+Mrp:       -2.396029e+24 
+Mtp:        4.264649e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      26.8094 
+half duration:   10.5000 
+latitude:        37.6950 
+longitude:      137.8194 
+depth:           20.5156 
+Mrr:       -8.803430e+23 
+Mtt:       -1.032510e+24 
+Mpp:        1.912853e+24 
+Mrt:        9.939655e+23 
+Mrp:       -2.884435e+23 
+Mtp:        7.501088e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      26.8880 
+half duration:    3.0000 
+latitude:        37.3575 
+longitude:      136.7772 
+depth:            0.4404 
+Mrr:       -4.132177e+24 
+Mtt:       -1.842610e+25 
+Mpp:        2.255828e+25 
+Mrt:        1.305026e+25 
+Mrp:        2.340879e+24 
+Mtp:        1.593743e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      26.9108 
+half duration:   12.0000 
+latitude:        37.2719 
+longitude:      136.7916 
+depth:            6.1762 
+Mrr:        1.853019e+24 
+Mtt:       -2.817726e+25 
+Mpp:        2.632424e+25 
+Mrt:        1.664773e+25 
+Mrp:        8.864975e+24 
+Mtp:        2.617207e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      26.9407 
+half duration:    1.5000 
+latitude:        37.1004 
+longitude:      136.8938 
+depth:           20.5156 
+Mrr:       -3.569330e+22 
+Mtt:       -2.002218e+23 
+Mpp:        2.359151e+23 
+Mrt:        1.380786e+23 
+Mrp:        3.139171e+22 
+Mtp:        1.752081e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.0000 
+half duration:    9.0000 
+latitude:        37.2149 
+longitude:      136.7768 
+depth:            9.0440 
+Mrr:        1.975561e+24 
+Mtt:       -2.035919e+25 
+Mpp:        1.838362e+25 
+Mrt:        1.177086e+25 
+Mrp:        6.817076e+24 
+Mtp:        1.905064e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      27.1310 
+half duration:    1.5000 
+latitude:        37.8952 
+longitude:      137.6880 
+depth:            3.3083 
+Mrr:       -2.092456e+23 
+Mtt:       -3.881201e+23 
+Mpp:        5.973657e+23 
+Mrt:        3.243661e+23 
+Mrp:       -2.973127e+22 
+Mtp:        3.087740e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.1386 
+half duration:    1.5000 
+latitude:        37.7520 
+longitude:      137.8342 
+depth:           17.6477 
+Mrr:       -3.121199e+24 
+Mtt:       -2.263485e+24 
+Mpp:        5.384684e+24 
+Mrt:        2.661334e+24 
+Mrp:       -1.402813e+24 
+Mtp:        1.381926e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      27.3607 
+half duration:    9.0000 
+latitude:        37.6381 
+longitude:      137.8045 
+depth:           23.3834 
+Mrr:       -3.558738e+24 
+Mtt:       -3.581915e+24 
+Mpp:        7.140653e+24 
+Mrt:        3.652553e+24 
+Mrp:       -1.327075e+24 
+Mtp:        2.491027e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      27.4907 
+half duration:    4.5000 
+latitude:        37.1580 
+longitude:      136.7620 
+depth:           11.9119 
+Mrr:       -1.318899e+23 
+Mtt:       -1.355533e+23 
+Mpp:        2.674433e+23 
+Mrt:        1.370984e+23 
+Mrp:       -4.841953e+22 
+Mtp:        9.488385e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      27.4982 
+half duration:    1.5000 
+latitude:        37.7233 
+longitude:      137.8634 
+depth:           20.5156 
+Mrr:       -2.801050e+23 
+Mtt:       -1.891124e+23 
+Mpp:        4.692174e+23 
+Mrt:        2.301795e+23 
+Mrp:       -1.297067e+23 
+Mtp:        1.111996e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.4997 
+half duration:   12.0000 
+latitude:        37.2436 
+longitude:      136.7476 
+depth:            6.1762 
+Mrr:        2.006169e+24 
+Mtt:       -2.075575e+25 
+Mpp:        1.874958e+25 
+Mrt:        1.200332e+25 
+Mrp:        6.944769e+24 
+Mtp:        1.941998e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      27.5607 
+half duration:    1.5000 
+latitude:        37.0717 
+longitude:      136.9230 
+depth:           23.3834 
+Mrr:       -1.162211e+22 
+Mtt:       -3.860606e+22 
+Mpp:        5.022817e+22 
+Mrt:        2.854295e+22 
+Mrp:        2.987290e+21 
+Mtp:        3.273868e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      27.5607 
+half duration:    7.5000 
+latitude:        37.1293 
+longitude:      136.7912 
+depth:           14.7798 
+Mrr:       -2.692295e+22 
+Mtt:       -2.788710e+22 
+Mpp:        5.481004e+22 
+Mrt:        2.811973e+22 
+Mrp:       -9.825113e+21 
+Mtp:        1.956663e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      27.5661 
+half duration:    7.5000 
+latitude:        37.6664 
+longitude:      137.8486 
+depth:           23.3834 
+Mrr:       -2.362521e+23 
+Mtt:       -1.965310e+23 
+Mpp:        4.327830e+23 
+Mrt:        2.170043e+23 
+Mrp:       -9.932586e+22 
+Mtp:        1.276447e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.6000 
+half duration:    1.5000 
+latitude:        37.1866 
+longitude:      136.7327 
+depth:            9.0440 
+Mrr:       -2.615198e+22 
+Mtt:       -2.250748e+23 
+Mpp:        2.512267e+23 
+Mrt:        1.495608e+23 
+Mrp:        4.432468e+22 
+Mtp:        2.000345e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.6391 
+half duration:    7.5000 
+latitude:        37.3005 
+longitude:      136.7624 
+depth:            3.3083 
+Mrr:       -1.282870e+25 
+Mtt:       -3.068855e+25 
+Mpp:        4.351725e+25 
+Mrt:        2.414284e+25 
+Mrp:        5.270520e+22 
+Mtp:        2.523348e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      27.7386 
+half duration:   10.5000 
+latitude:        37.9239 
+longitude:      137.6588 
+depth:            0.4404 
+Mrr:       -1.468937e+23 
+Mtt:       -4.832221e+23 
+Mpp:        6.301159e+23 
+Mrt:        3.578409e+23 
+Mrp:        3.647095e+22 
+Mtp:        4.094682e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      27.8035 
+half duration:    9.0000 
+latitude:        37.1007 
+longitude:      136.8204 
+depth:           17.6477 
+Mrr:       -1.951178e+22 
+Mtt:       -5.582973e+22 
+Mpp:        7.534151e+22 
+Mrt:        4.237215e+22 
+Mrp:        2.570817e+21 
+Mtp:        4.674879e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      27.8768 
+half duration:   12.0000 
+latitude:        37.8376 
+longitude:      137.8198 
+depth:           11.9119 
+Mrr:       -2.403125e+24 
+Mtt:       -2.307271e+24 
+Mpp:        4.710396e+24 
+Mrt:        2.397628e+24 
+Mrp:       -9.264785e+23 
+Mtp:        1.580173e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      27.8907 
+half duration:    4.5000 
+latitude:        37.2153 
+longitude:      136.7035 
+depth:            6.1762 
+Mrr:       -2.389731e+21 
+Mtt:       -1.946003e+22 
+Mpp:        2.184977e+22 
+Mrt:        1.298315e+22 
+Mrp:        3.749138e+21 
+Mtp:        1.726671e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      27.9059 
+half duration:   12.0000 
+latitude:        37.8089 
+longitude:      137.8490 
+depth:           14.7798 
+Mrr:       -3.016678e+24 
+Mtt:       -3.116262e+24 
+Mpp:        6.132940e+24 
+Mrt:        3.145561e+24 
+Mrp:       -1.103188e+24 
+Mtp:        2.184689e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.0000 
+half duration:   12.0000 
+latitude:        37.8662 
+longitude:      137.7905 
+depth:            9.0440 
+Mrr:       -3.062195e+24 
+Mtt:       -2.356338e+24 
+Mpp:        5.418533e+24 
+Mrt:        2.694776e+24 
+Mrp:       -1.339388e+24 
+Mtp:        1.479826e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.0000 
+half duration:    7.5000 
+latitude:        37.6947 
+longitude:      137.8927 
+depth:           23.3834 
+Mrr:       -7.299298e+22 
+Mtt:       -4.523852e+23 
+Mpp:        5.253782e+23 
+Mrt:        3.088789e+23 
+Mrp:        7.587682e+22 
+Mtp:        3.975549e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      28.1961 
+half duration:    4.5000 
+latitude:        37.2722 
+longitude:      136.7183 
+depth:            3.3083 
+Mrr:        9.560205e+23 
+Mtt:       -1.515588e+25 
+Mpp:        1.419986e+25 
+Mrt:        8.970891e+24 
+Mrp:        4.741954e+24 
+Mtp:        1.406838e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      28.2094 
+half duration:    1.5000 
+latitude:        37.0720 
+longitude:      136.8497 
+depth:           20.5156 
+Mrr:       -2.110622e+22 
+Mtt:       -5.715136e+22 
+Mpp:        7.825758e+22 
+Mrt:        4.383376e+22 
+Mrp:        1.899184e+21 
+Mtp:        4.760591e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      28.2833 
+half duration:   12.0000 
+latitude:        37.7803 
+longitude:      137.8783 
+depth:           17.6477 
+Mrr:       -3.708157e+24 
+Mtt:       -3.530602e+24 
+Mpp:        7.238760e+24 
+Mrt:        3.681369e+24 
+Mrp:       -1.437675e+24 
+Mtp:        2.411188e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.3737 
+half duration:    7.5000 
+latitude:        37.3292 
+longitude:      136.7332 
+depth:            0.4404 
+Mrr:       -5.798569e+23 
+Mtt:       -1.979092e+25 
+Mpp:        2.037078e+25 
+Mrt:        1.245465e+25 
+Mrp:        5.009719e+24 
+Mtp:        1.796802e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      28.4000 
+half duration:    9.0000 
+latitude:        37.1583 
+longitude:      136.6886 
+depth:            9.0440 
+Mrr:       -1.961007e+21 
+Mtt:       -8.638165e+22 
+Mpp:        8.834266e+22 
+Mrt:        5.413023e+22 
+Mrp:        2.223457e+22 
+Mtp:        7.855078e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      28.4768 
+half duration:   12.0000 
+latitude:        37.8949 
+longitude:      137.7613 
+depth:            6.1762 
+Mrr:       -1.193517e+24 
+Mtt:       -1.723364e+24 
+Mpp:        2.916881e+24 
+Mrt:        1.547334e+24 
+Mrp:       -3.030228e+23 
+Mtp:        1.312789e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.4832 
+half duration:    7.5000 
+latitude:        37.1297 
+longitude:      136.7179 
+depth:           11.9119 
+Mrr:       -3.097020e+21 
+Mtt:       -2.662166e+21 
+Mpp:        5.759186e+21 
+Mrt:        2.897709e+21 
+Mrp:       -1.278701e+21 
+Mtp:        1.751786e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      28.5607 
+half duration:    7.5000 
+latitude:        37.2439 
+longitude:      136.6743 
+depth:            3.3083 
+Mrr:       -5.625199e+20 
+Mtt:       -6.033209e+21 
+Mpp:        6.595729e+21 
+Mrt:        3.952956e+21 
+Mrp:        1.277711e+21 
+Mtp:        5.392510e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      28.6029 
+half duration:    1.5000 
+latitude:        37.7517 
+longitude:      137.9075 
+depth:           20.5156 
+Mrr:       -1.022767e+24 
+Mtt:       -1.660486e+24 
+Mpp:        2.683253e+24 
+Mrt:        1.439375e+24 
+Mrp:       -2.096964e+23 
+Mtp:        1.292918e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.6832 
+half duration:    6.0000 
+latitude:        37.1869 
+longitude:      136.6594 
+depth:            6.1762 
+Mrr:        2.121157e+22 
+Mtt:       -2.598186e+23 
+Mpp:        2.386070e+23 
+Mrt:        1.518362e+23 
+Mrp:        8.441069e+22 
+Mtp:        2.422379e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      28.7310 
+half duration:    7.5000 
+latitude:        37.1010 
+longitude:      136.7471 
+depth:           14.7798 
+Mrr:       -8.173142e+21 
+Mtt:       -3.748804e+22 
+Mpp:        4.566119e+22 
+Mrt:        2.645618e+22 
+Mrp:        4.913752e+21 
+Mtp:        3.247633e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      28.8806 
+half duration:    6.0000 
+latitude:        37.3009 
+longitude:      136.6891 
+depth:            0.4404 
+Mrr:        6.818118e+23 
+Mtt:       -7.912409e+24 
+Mpp:        7.230597e+24 
+Mrt:        4.609445e+24 
+Mrp:        2.593790e+24 
+Mtp:        7.384912e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.9311 
+half duration:    1.5000 
+latitude:        37.2156 
+longitude:      136.6302 
+depth:            3.3083 
+Mrr:        1.918085e+23 
+Mtt:       -4.419682e+24 
+Mpp:        4.227873e+24 
+Mrt:        2.651264e+24 
+Mrp:        1.326569e+24 
+Mtp:        4.083385e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      28.9661 
+half duration:    4.5000 
+latitude:        37.0434 
+longitude:      136.8789 
+depth:           23.3834 
+Mrr:       -3.524695e+22 
+Mtt:       -1.047070e+23 
+Mpp:        1.399539e+23 
+Mrt:        7.892237e+22 
+Mrp:        5.692539e+21 
+Mtp:        8.797266e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.0568 
+half duration:    9.0000 
+latitude:        37.7230 
+longitude:      137.9367 
+depth:           23.3834 
+Mrr:       -2.066078e+23 
+Mtt:       -3.537531e+23 
+Mpp:        5.603609e+23 
+Mrt:        3.020782e+23 
+Mrp:       -3.737588e+22 
+Mtp:        2.779318e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      29.1059 
+half duration:   12.0000 
+latitude:        37.9235 
+longitude:      137.7321 
+depth:            3.3083 
+Mrr:       -7.492475e+22 
+Mtt:       -8.544061e+22 
+Mpp:        1.603654e+23 
+Mrt:        8.309162e+22 
+Mrp:       -2.521149e+22 
+Mtp:        6.161442e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.1386 
+half duration:    6.0000 
+latitude:        37.0724 
+longitude:      136.7764 
+depth:           17.6477 
+Mrr:       -3.086885e+21 
+Mtt:       -1.299807e+22 
+Mpp:        1.608496e+22 
+Mrt:        9.275497e+21 
+Mrp:        1.540065e+21 
+Mtp:        1.120463e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.2000 
+half duration:   10.5000 
+latitude:        37.1300 
+longitude:      136.6446 
+depth:            9.0440 
+Mrr:        2.022615e+23 
+Mtt:       -2.366791e+24 
+Mpp:        2.164530e+24 
+Mrt:        1.379478e+24 
+Mrp:        7.747753e+23 
+Mtp:        2.208633e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      29.2035 
+half duration:   10.5000 
+latitude:        37.2726 
+longitude:      136.6450 
+depth:            0.4404 
+Mrr:       -9.440092e+20 
+Mtt:       -1.696788e+22 
+Mpp:        1.791189e+22 
+Mrt:        1.085902e+22 
+Mrp:        4.006104e+21 
+Mtp:        1.530655e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.2713 
+half duration:   12.0000 
+latitude:        37.8659 
+longitude:      137.8639 
+depth:           11.9119 
+Mrr:       -2.064702e+24 
+Mtt:       -2.638996e+24 
+Mpp:        4.703698e+24 
+Mrt:        2.465426e+24 
+Mrp:       -6.173438e+23 
+Mtp:        1.958049e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      29.2768 
+half duration:    7.5000 
+latitude:        37.1586 
+longitude:      136.6153 
+depth:            6.1762 
+Mrr:        2.023927e+24 
+Mtt:       -2.103588e+25 
+Mpp:        1.901196e+25 
+Mrt:        1.216910e+25 
+Mrp:        7.032474e+24 
+Mtp:        1.968003e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      29.2843 
+half duration:    1.5000 
+latitude:        37.8373 
+longitude:      137.8931 
+depth:           14.7798 
+Mrr:       -5.851531e+24 
+Mtt:       -5.189278e+24 
+Mpp:        1.104081e+25 
+Mrt:        5.573350e+24 
+Mrp:       -2.372627e+24 
+Mtp:        3.455550e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      29.4356 
+half duration:   12.0000 
+latitude:        37.8086 
+longitude:      137.9223 
+depth:           17.6477 
+Mrr:       -3.850873e+24 
+Mtt:       -4.120555e+24 
+Mpp:        7.971428e+24 
+Mrt:        4.103419e+24 
+Mrp:       -1.369463e+24 
+Mtp:        2.919165e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      29.4768 
+half duration:    3.0000 
+latitude:        37.1013 
+longitude:      136.6738 
+depth:           11.9119 
+Mrr:       -7.125798e+22 
+Mtt:       -2.840823e+23 
+Mpp:        3.553402e+23 
+Mrt:        2.042580e+23 
+Mrp:        3.120680e+22 
+Mtp:        2.440498e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      29.4982 
+half duration:    4.5000 
+latitude:        37.0437 
+longitude:      136.8056 
+depth:           20.5156 
+Mrr:       -2.411249e+22 
+Mtt:       -1.233979e+23 
+Mpp:        1.475104e+23 
+Mrt:        8.595481e+22 
+Mrp:        1.797932e+22 
+Mtp:        1.075159e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      29.5059 
+half duration:    1.5000 
+latitude:        37.1873 
+longitude:      136.5861 
+depth:            3.3083 
+Mrr:        1.027002e+24 
+Mtt:       -1.754266e+25 
+Mpp:        1.651566e+25 
+Mrt:        1.041587e+25 
+Mrp:        5.437262e+24 
+Mtp:        1.626636e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      29.5386 
+half duration:    9.0000 
+latitude:        37.2442 
+longitude:      136.6009 
+depth:            0.4404 
+Mrr:       -4.521508e+21 
+Mtt:       -1.424320e+22 
+Mpp:        1.876471e+22 
+Mrt:        1.062517e+22 
+Mrp:        9.509861e+20 
+Mtp:        1.202702e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.6833 
+half duration:    9.0000 
+latitude:        37.9522 
+longitude:      137.7028 
+depth:            0.4404 
+Mrr:       -4.287009e+23 
+Mtt:       -6.469779e+23 
+Mpp:        1.075679e+24 
+Mrt:        5.730531e+23 
+Mrp:       -1.012356e+23 
+Mtp:        4.971080e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      29.8000 
+half duration:    3.0000 
+latitude:        37.8946 
+longitude:      137.8346 
+depth:            9.0440 
+Mrr:       -3.323939e+24 
+Mtt:       -2.592705e+24 
+Mpp:        5.916644e+24 
+Mrt:        2.946698e+24 
+Mrp:       -1.444363e+24 
+Mtp:        1.638278e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      29.9059 
+half duration:    4.5000 
+latitude:        37.0727 
+longitude:      136.7030 
+depth:           14.7798 
+Mrr:       -9.912988e+21 
+Mtt:       -6.013369e+22 
+Mpp:        7.004668e+22 
+Mrt:        4.114315e+22 
+Mrp:        9.949956e+21 
+Mtp:        5.279898e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      29.9204 
+half duration:    7.5000 
+latitude:        37.7800 
+longitude:      137.9516 
+depth:           20.5156 
+Mrr:       -1.448028e+24 
+Mtt:       -1.904699e+24 
+Mpp:        3.352727e+24 
+Mrt:        1.762348e+24 
+Mrp:       -4.182927e+23 
+Mtp:        1.422516e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      30.0833 
+half duration:    6.0000 
+latitude:        37.2159 
+longitude:      136.5569 
+depth:            0.4404 
+Mrr:        7.232750e+21 
+Mtt:       -9.792202e+22 
+Mpp:        9.068927e+22 
+Mrt:        5.753333e+22 
+Mrp:        3.132064e+22 
+Mtp:        9.112832e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      30.2000 
+half duration:    6.0000 
+latitude:        37.0151 
+longitude:      136.8348 
+depth:           23.3834 
+Mrr:       -2.221023e+23 
+Mtt:       -2.658814e+23 
+Mpp:        4.879837e+23 
+Mrt:        2.540955e+23 
+Mrp:       -7.130534e+22 
+Mtp:        1.941728e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      30.2713 
+half duration:    7.5000 
+latitude:        37.1303 
+longitude:      136.5713 
+depth:            6.1762 
+Mrr:        1.949436e+24 
+Mtt:       -2.106485e+25 
+Mpp:        1.911541e+25 
+Mrt:        1.221715e+25 
+Mrp:        6.992177e+24 
+Mtp:        1.969010e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      30.2833 
+half duration:    1.5000 
+latitude:        37.0441 
+longitude:      136.7323 
+depth:           17.6477 
+Mrr:       -4.802829e+22 
+Mtt:       -3.680649e+22 
+Mpp:        8.483478e+22 
+Mrt:        4.217239e+22 
+Mrp:       -2.104839e+22 
+Mtp:        2.307197e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      30.2843 
+half duration:    1.5000 
+latitude:        37.1590 
+longitude:      136.5420 
+depth:            3.3083 
+Mrr:        6.170754e+22 
+Mtt:       -1.336498e+25 
+Mpp:        1.330328e+25 
+Mrt:        8.227205e+24 
+Mrp:        3.676278e+24 
+Mtp:        1.223383e+25 
+{
+    "centroid_depth": 15.5,
+time shift:      30.4000 
+half duration:    6.0000 
+latitude:        37.1017 
+longitude:      136.6005 
+depth:            9.0440 
+Mrr:        6.619131e+23 
+Mtt:       -7.056572e+24 
+Mpp:        6.394659e+24 
+Mrt:        4.089067e+24 
+Mrp:        2.348063e+24 
+Mtp:        6.597996e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      30.4713 
+half duration:    1.5000 
+latitude:        37.9232 
+longitude:      137.8054 
+depth:            6.1762 
+Mrr:       -2.147572e+24 
+Mtt:       -2.717314e+24 
+Mpp:        4.864886e+24 
+Mrt:        2.547336e+24 
+Mrp:       -6.496316e+23 
+Mtp:        2.011400e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      30.5321 
+half duration:    1.5000 
+latitude:        37.7513 
+longitude:      137.9808 
+depth:           23.3834 
+Mrr:       -5.909833e+23 
+Mtt:       -5.301653e+23 
+Mpp:        1.121149e+24 
+Mrt:        5.666342e+23 
+Mrp:       -2.379759e+23 
+Mtp:        3.545454e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      30.6356 
+half duration:    9.0000 
+latitude:        37.1876 
+longitude:      136.5128 
+depth:            0.4404 
+Mrr:       -7.372409e+22 
+Mtt:       -2.479842e+23 
+Mpp:        3.217083e+23 
+Mrt:        1.829678e+23 
+Mrp:        1.979018e+22 
+Mtp:        2.105002e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      30.6713 
+half duration:    1.5000 
+latitude:        37.0730 
+longitude:      136.6297 
+depth:           11.9119 
+Mrr:       -8.505669e+21 
+Mtt:       -3.837027e+22 
+Mpp:        4.687594e+22 
+Mrt:        2.713555e+22 
+Mrp:        4.938724e+21 
+Mtp:        3.320972e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      30.8029 
+half duration:    1.5000 
+latitude:        37.0154 
+longitude:      136.7615 
+depth:           20.5156 
+Mrr:       -1.672479e+22 
+Mtt:       -4.944301e+22 
+Mpp:        6.616780e+22 
+Mrt:        3.730025e+22 
+Mrp:        2.635613e+21 
+Mtp:        4.152315e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      30.8655 
+half duration:    1.5000 
+latitude:        37.8656 
+longitude:      137.9372 
+depth:           14.7798 
+Mrr:       -4.607385e+24 
+Mtt:       -3.060825e+24 
+Mpp:        7.668210e+24 
+Mrt:        3.755396e+24 
+Mrp:       -2.147077e+24 
+Mtp:        1.783524e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      30.8666 
+half duration:   12.0000 
+latitude:        37.8942 
+longitude:      137.9079 
+depth:           11.9119 
+Mrr:       -1.308420e+22 
+Mtt:       -1.423891e+23 
+Mpp:        1.554733e+23 
+Mrt:        9.321561e+22 
+Mrp:        3.027912e+22 
+Mtp:        1.273102e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      30.8843 
+half duration:    1.5000 
+latitude:        37.9518 
+longitude:      137.7762 
+depth:            3.3083 
+Mrr:       -3.290392e+22 
+Mtt:       -5.554886e+22 
+Mpp:        8.845278e+22 
+Mrt:        4.762110e+22 
+Mrp:       -6.167107e+21 
+Mtp:        4.354132e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      30.9941 
+half duration:    7.5000 
+latitude:        37.8369 
+longitude:      137.9664 
+depth:           17.6477 
+Mrr:       -2.231144e+24 
+Mtt:       -4.029656e+24 
+Mpp:        6.260801e+24 
+Mrt:        3.391478e+24 
+Mrp:       -3.466188e+23 
+Mtp:        3.192923e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      31.0843 
+half duration:   12.0000 
+latitude:        37.0444 
+longitude:      136.6590 
+depth:           14.7798 
+Mrr:       -4.647258e+21 
+Mtt:       -9.617234e+21 
+Mpp:        1.426449e+22 
+Mrt:        7.819785e+21 
+Mrp:       -3.889859e+20 
+Mtp:        7.769575e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      31.2000 
+half duration:    9.0000 
+latitude:        37.9229 
+longitude:      137.8787 
+depth:            9.0440 
+Mrr:       -9.306038e+22 
+Mtt:       -4.398260e+23 
+Mpp:        5.328864e+23 
+Mrt:        3.092493e+23 
+Mrp:        5.948090e+22 
+Mtp:        3.816500e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      31.2356 
+half duration:    1.5000 
+latitude:        37.9805 
+longitude:      137.7469 
+depth:            0.4404 
+Mrr:       -5.088567e+22 
+Mtt:       -5.372488e+23 
+Mpp:        5.881345e+23 
+Mrt:        3.523267e+23 
+Mrp:        1.132648e+23 
+Mtp:        4.800206e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      31.2568 
+half duration:    4.5000 
+latitude:        36.9868 
+longitude:      136.7908 
+depth:           23.3834 
+Mrr:       -3.233316e+22 
+Mtt:       -2.688427e+22 
+Mpp:        5.921743e+22 
+Mrt:        2.969109e+22 
+Mrp:       -1.359707e+22 
+Mtp:        1.745768e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      31.4356 
+half duration:    1.5000 
+latitude:        37.0157 
+longitude:      136.6882 
+depth:           17.6477 
+Mrr:       -6.691364e+22 
+Mtt:       -5.321875e+22 
+Mpp:        1.201324e+23 
+Mrt:        5.995264e+22 
+Mrp:       -2.879721e+22 
+Mtp:        3.391752e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      31.4483 
+half duration:   10.5000 
+latitude:        37.8083 
+longitude:      137.9957 
+depth:           20.5156 
+Mrr:       -7.788236e+23 
+Mtt:       -1.213206e+24 
+Mpp:        1.992030e+24 
+Mrt:        1.064432e+24 
+Mrp:       -1.736206e+23 
+Mtp:        9.376956e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      31.6655 
+half duration:    3.0000 
+latitude:        37.1306 
+longitude:      136.4980 
+depth:            3.3083 
+Mrr:       -9.105479e+23 
+Mtt:       -2.804939e+24 
+Mpp:        3.715487e+24 
+Mrt:        2.100579e+24 
+Mrp:        1.742670e+23 
+Mtp:        2.364070e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      31.6666 
+half duration:    3.0000 
+latitude:        37.1020 
+longitude:      136.5272 
+depth:            6.1762 
+Mrr:       -5.018594e+23 
+Mtt:       -5.970316e+24 
+Mpp:        6.472175e+24 
+Mrt:        3.889562e+24 
+Mrp:        1.299831e+24 
+Mtp:        5.348369e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      31.7204 
+half duration:    9.0000 
+latitude:        36.9871 
+longitude:      136.7175 
+depth:           20.5156 
+Mrr:       -1.356248e+22 
+Mtt:       -2.083881e+23 
+Mpp:        2.219506e+23 
+Mrt:        1.341603e+23 
+Mrp:        4.792693e+22 
+Mtp:        1.875510e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      31.8000 
+half duration:   10.5000 
+latitude:        37.0734 
+longitude:      136.5564 
+depth:            9.0440 
+Mrr:       -1.498320e+22 
+Mtt:       -3.838981e+22 
+Mpp:        5.337301e+22 
+Mrt:        2.977031e+22 
+Mrp:        7.546351e+20 
+Mtp:        3.180042e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      31.8666 
+half duration:   12.0000 
+latitude:        37.9515 
+longitude:      137.8495 
+depth:            6.1762 
+Mrr:       -1.421657e+24 
+Mtt:       -1.066151e+24 
+Mpp:        2.487807e+24 
+Mrt:        1.233911e+24 
+Mrp:       -6.293902e+23 
+Mtp:        6.616021e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      31.9941 
+half duration:    9.0000 
+latitude:        37.1593 
+longitude:      136.4687 
+depth:            0.4404 
+Mrr:       -9.501561e+22 
+Mtt:       -1.403461e+23 
+Mpp:        2.353618e+23 
+Mrt:        1.251276e+23 
+Mrp:       -2.326666e+22 
+Mtp:        1.073906e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.0666 
+half duration:    1.5000 
+latitude:        37.0447 
+longitude:      136.5857 
+depth:           11.9119 
+Mrr:       -1.148380e+22 
+Mtt:       -2.024456e+23 
+Mpp:        2.139294e+23 
+Mrt:        1.296494e+23 
+Mrp:        4.765448e+22 
+Mtp:        1.825754e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.1321 
+half duration:    6.0000 
+latitude:        36.9584 
+longitude:      136.7467 
+depth:           23.3834 
+Mrr:       -1.136885e+22 
+Mtt:       -4.319844e+22 
+Mpp:        5.456729e+22 
+Mrt:        3.127597e+22 
+Mrp:        4.400591e+21 
+Mtp:        3.699351e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      32.2228 
+half duration:    4.5000 
+latitude:        37.7796 
+longitude:      138.0249 
+depth:           23.3834 
+Mrr:       -2.278104e+24 
+Mtt:       -2.570249e+24 
+Mpp:        4.848353e+24 
+Mrt:        2.509383e+24 
+Mrp:       -7.740685e+23 
+Mtp:        1.848172e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      32.2655 
+half duration:    4.5000 
+latitude:        37.0161 
+longitude:      136.6149 
+depth:           14.7798 
+Mrr:       -6.674092e+22 
+Mtt:       -6.144263e+22 
+Mpp:        1.281835e+23 
+Mrt:        6.496053e+22 
+Mrp:       -2.644792e+22 
+Mtp:        4.147506e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      32.2655 
+half duration:   12.0000 
+latitude:        37.9802 
+longitude:      137.8202 
+depth:            3.3083 
+Mrr:       -1.193387e+23 
+Mtt:       -3.648350e+23 
+Mpp:        4.841736e+23 
+Mrt:        2.735861e+23 
+Mrp:        2.208145e+22 
+Mtp:        3.072923e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.4490 
+half duration:    7.5000 
+latitude:        37.8939 
+longitude:      137.9812 
+depth:           14.7798 
+Mrr:       -2.578861e+24 
+Mtt:       -2.403340e+24 
+Mpp:        4.982201e+24 
+Mrt:        2.528099e+24 
+Mrp:       -1.013998e+24 
+Mtp:        1.629294e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      32.4624 
+half duration:    9.0000 
+latitude:        37.9225 
+longitude:      137.9520 
+depth:           11.9119 
+Mrr:       -1.406660e+24 
+Mtt:       -1.031949e+24 
+Mpp:        2.438608e+24 
+Mrt:        1.206721e+24 
+Mrp:       -6.289965e+23 
+Mtp:        6.336340e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.5941 
+half duration:    7.5000 
+latitude:        38.0088 
+longitude:      137.7910 
+depth:            0.4404 
+Mrr:       -7.878755e+23 
+Mtt:       -6.244161e+23 
+Mpp:        1.412292e+24 
+Mrt:        7.045493e+23 
+Mrp:       -3.396740e+23 
+Mtp:        3.973426e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.5941 
+half duration:   10.5000 
+latitude:        36.9874 
+longitude:      136.6441 
+depth:           17.6477 
+Mrr:       -4.227110e+22 
+Mtt:       -3.040019e+22 
+Mpp:        7.267129e+22 
+Mrt:        3.588578e+22 
+Mrp:       -1.906791e+22 
+Mtp:        1.848285e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      32.7576 
+half duration:    7.5000 
+latitude:        37.8653 
+longitude:      138.0105 
+depth:           17.6477 
+Mrr:       -9.786045e+23 
+Mtt:       -6.192320e+24 
+Mpp:        7.170925e+24 
+Mrt:        4.219669e+24 
+Mrp:        1.051895e+24 
+Mtp:        5.446318e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      32.8000 
+half duration:    4.5000 
+latitude:        37.9512 
+longitude:      137.9228 
+depth:            9.0440 
+Mrr:       -6.801566e+23 
+Mtt:       -1.172752e+24 
+Mpp:        1.852909e+24 
+Mrt:        9.995041e+23 
+Mrp:       -1.208135e+23 
+Mtp:        9.224457e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      32.8484 
+half duration:    1.5000 
+latitude:        36.9588 
+longitude:      136.6734 
+depth:           20.5156 
+Mrr:       -3.111847e+22 
+Mtt:       -2.055519e+23 
+Mpp:        2.366703e+23 
+Mrt:        1.395173e+23 
+Mrp:        3.580073e+22 
+Mtp:        1.810896e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.1848 
+half duration:    4.5000 
+latitude:        37.8366 
+longitude:      138.0397 
+depth:           20.5156 
+Mrr:       -2.687128e+23 
+Mtt:       -1.002602e+24 
+Mpp:        1.271314e+24 
+Mrt:        7.278546e+23 
+Mrp:        9.899692e+22 
+Mtp:        8.575213e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.2228 
+half duration:   10.5000 
+latitude:        36.9301 
+longitude:      136.7026 
+depth:           23.3834 
+Mrr:       -1.637102e+22 
+Mtt:       -2.267046e+22 
+Mpp:        3.904148e+22 
+Mrt:        2.062634e+22 
+Mrp:       -4.419900e+21 
+Mtp:        1.712169e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      33.2490 
+half duration:   12.0000 
+latitude:        37.1023 
+longitude:      136.4539 
+depth:            3.3083 
+Mrr:       -3.032850e+22 
+Mtt:       -8.159652e+22 
+Mpp:        1.119250e+23 
+Mrt:        6.266142e+22 
+Mrp:        2.585666e+21 
+Mtp:        6.792536e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      33.2624 
+half duration:   10.5000 
+latitude:        37.9798 
+longitude:      137.8935 
+depth:            6.1762 
+Mrr:       -1.532740e+24 
+Mtt:       -1.408206e+24 
+Mpp:        2.940946e+24 
+Mrt:        1.490089e+24 
+Mrp:       -6.081676e+23 
+Mtp:        9.498846e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.4624 
+half duration:    6.0000 
+latitude:        37.0737 
+longitude:      136.4831 
+depth:            6.1762 
+Mrr:       -2.691795e+21 
+Mtt:       -1.490101e+23 
+Mpp:        1.517019e+23 
+Mrt:        9.309596e+22 
+Mrp:        3.880198e+22 
+Mtp:        1.356539e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.5576 
+half duration:    7.5000 
+latitude:        37.1310 
+longitude:      136.4246 
+depth:            0.4404 
+Mrr:       -3.949074e+22 
+Mtt:       -3.161755e+22 
+Mpp:        7.110829e+22 
+Mrt:        3.551170e+22 
+Mrp:       -1.693847e+22 
+Mtp:        2.020853e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      33.6000 
+half duration:    9.0000 
+latitude:        37.0450 
+longitude:      136.5123 
+depth:            9.0440 
+Mrr:       -1.365779e+21 
+Mtt:       -3.003919e+23 
+Mpp:        3.017576e+23 
+Mrt:        1.860295e+23 
+Mrp:        8.084781e+22 
+Mtp:        2.743616e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.6490 
+half duration:    3.0000 
+latitude:        38.0085 
+longitude:      137.8643 
+depth:            3.3083 
+Mrr:       -3.322305e+22 
+Mtt:       -2.706943e+23 
+Mpp:        3.039174e+23 
+Mrt:        1.805916e+23 
+Mrp:        5.216365e+22 
+Mtp:        2.401887e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.7261 
+half duration:    1.5000 
+latitude:        37.8080 
+longitude:      138.0690 
+depth:           23.3834 
+Mrr:       -8.409155e+22 
+Mtt:       -9.052404e+23 
+Mpp:        9.893319e+23 
+Mrt:        5.929874e+23 
+Mrp:        1.919123e+23 
+Mtp:        8.091765e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      33.7576 
+half duration:   10.5000 
+latitude:        38.0371 
+longitude:      137.8351 
+depth:            0.4404 
+Mrr:       -4.934674e+23 
+Mtt:       -5.039819e+23 
+Mpp:        9.974493e+23 
+Mrt:        5.109839e+23 
+Mrp:       -1.820306e+23 
+Mtp:        3.520901e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      34.0490 
+half duration:    4.5000 
+latitude:        36.9877 
+longitude:      136.5708 
+depth:           14.7798 
+Mrr:       -5.552771e+22 
+Mtt:       -7.799870e+22 
+Mpp:        1.335264e+23 
+Mrt:        7.064292e+22 
+Mrp:       -1.469107e+22 
+Mtp:        5.908363e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      34.0624 
+half duration:    7.5000 
+latitude:        37.0164 
+longitude:      136.5416 
+depth:           11.9119 
+Mrr:       -1.366479e+23 
+Mtt:       -1.041708e+23 
+Mpp:        2.408187e+23 
+Mrt:        1.196477e+23 
+Mrp:       -6.003540e+22 
+Mtp:        6.514100e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      34.1576 
+half duration:    3.0000 
+latitude:        36.9591 
+longitude:      136.6001 
+depth:           17.6477 
+Mrr:       -1.201956e+22 
+Mtt:       -3.046229e+22 
+Mpp:        4.248186e+22 
+Mrt:        2.367552e+22 
+Mrp:        5.144638e+20 
+Mtp:        2.520488e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      34.2345 
+half duration:    6.0000 
+latitude:        37.9222 
+longitude:      138.0253 
+depth:           14.7798 
+Mrr:       -6.559932e+23 
+Mtt:       -1.735906e+24 
+Mpp:        2.391899e+24 
+Mrt:        1.337439e+24 
+Mrp:        4.803815e+22 
+Mtp:        1.442687e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      34.2588 
+half duration:    4.5000 
+latitude:        37.9509 
+longitude:      137.9961 
+depth:           11.9119 
+Mrr:       -1.415637e+24 
+Mtt:       -1.089665e+24 
+Mpp:        2.505303e+24 
+Mrt:        1.245993e+24 
+Mrp:       -6.190991e+23 
+Mtp:        6.844291e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      34.3848 
+half duration:   10.5000 
+latitude:        36.9305 
+longitude:      136.6293 
+depth:           20.5156 
+Mrr:       -1.431042e+21 
+Mtt:       -9.871217e+21 
+Mpp:        1.130226e+22 
+Mrt:        6.674386e+21 
+Mrp:        1.760237e+21 
+Mtp:        8.710424e+21 
+{
+    "centroid_depth": 15.5,
+time shift:      34.4000 
+half duration:    7.5000 
+latitude:        37.9795 
+longitude:      137.9669 
+depth:            9.0440 
+Mrr:       -1.298864e+24 
+Mtt:       -5.142632e+24 
+Mpp:        6.441496e+24 
+Mrt:        3.701211e+24 
+Mrp:        5.591631e+23 
+Mtp:        4.415977e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      34.5254 
+half duration:    7.5000 
+latitude:        37.8936 
+longitude:      138.0546 
+depth:           17.6477 
+Mrr:       -9.849524e+23 
+Mtt:       -3.917881e+24 
+Mpp:        4.902833e+24 
+Mrt:        2.817889e+24 
+Mrp:        4.289561e+23 
+Mtp:        3.365292e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      34.6588 
+half duration:    9.0000 
+latitude:        38.0081 
+longitude:      137.9376 
+depth:            6.1762 
+Mrr:       -3.118743e+24 
+Mtt:       -4.767312e+24 
+Mpp:        7.886055e+24 
+Mrt:        4.206324e+24 
+Mrp:       -7.199792e+23 
+Mtp:        3.671834e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      34.7261 
+half duration:    6.0000 
+latitude:        36.9018 
+longitude:      136.6585 
+depth:           23.3834 
+Mrr:       -2.765726e+23 
+Mtt:       -2.572559e+23 
+Mpp:        5.338285e+23 
+Mrt:        2.708243e+23 
+Mrp:       -1.088815e+23 
+Mtp:        1.742847e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      34.8345 
+half duration:    7.5000 
+latitude:        38.0368 
+longitude:      137.9084 
+depth:            3.3083 
+Mrr:       -1.112378e+24 
+Mtt:       -1.806616e+24 
+Mpp:        2.918994e+24 
+Mrt:        1.565885e+24 
+Mrp:       -2.278942e+23 
+Mtp:        1.406787e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      34.9254 
+half duration:    7.5000 
+latitude:        38.0654 
+longitude:      137.8791 
+depth:            0.4404 
+Mrr:       -4.734596e+23 
+Mtt:       -5.650494e+23 
+Mpp:        1.038509e+24 
+Mrt:        5.405889e+23 
+Mrp:       -1.524750e+23 
+Mtp:        4.123353e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      34.9285 
+half duration:    1.5000 
+latitude:        37.8649 
+longitude:      138.0838 
+depth:           20.5156 
+Mrr:       -2.869012e+23 
+Mtt:       -2.677689e+23 
+Mpp:        5.546701e+23 
+Mrt:        2.814975e+23 
+Mrp:       -1.127011e+23 
+Mtp:        1.816216e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    6.0000 
+latitude:        38.0938 
+longitude:      137.9232 
+depth:            0.4404 
+Mrr:       -3.359144e+23 
+Mtt:       -6.235877e+23 
+Mpp:        9.595020e+23 
+Mrt:        5.210423e+23 
+Mrp:       -4.758910e+22 
+Mtp:        4.961646e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    3.0000 
+latitude:        37.8932 
+longitude:      138.1279 
+depth:           20.5156 
+Mrr:       -1.813371e+23 
+Mtt:       -6.348219e+23 
+Mpp:        8.161590e+23 
+Mrt:        4.653918e+23 
+Mrp:        5.544190e+22 
+Mtp:        5.404942e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    7.5000 
+latitude:        38.0078 
+longitude:      138.0109 
+depth:            9.0440 
+Mrr:       -2.500981e+24 
+Mtt:       -4.220568e+24 
+Mpp:        6.721549e+24 
+Mrt:        3.618611e+24 
+Mrp:       -4.691949e+23 
+Mtp:        3.308030e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    7.5000 
+latitude:        38.0365 
+longitude:      137.9817 
+depth:            6.1762 
+Mrr:       -3.845397e+24 
+Mtt:       -4.191194e+24 
+Mpp:        8.036591e+24 
+Mrt:        4.144817e+24 
+Mrp:       -1.346701e+24 
+Mtp:        2.984961e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:   10.5000 
+latitude:        37.8363 
+longitude:      138.1130 
+depth:           23.3834 
+Mrr:       -3.120447e+23 
+Mtt:       -4.599992e+23 
+Mpp:        7.720438e+23 
+Mrt:        4.103702e+23 
+Mrp:       -7.666059e+22 
+Mtp:        3.518470e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    4.5000 
+latitude:        37.9792 
+longitude:      138.0402 
+depth:           11.9119 
+Mrr:        1.026273e+23 
+Mtt:       -2.055964e+24 
+Mpp:        1.953336e+24 
+Mrt:        1.227899e+24 
+Mrp:        6.257654e+23 
+Mtp:        1.902477e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    4.5000 
+latitude:        37.9505 
+longitude:      138.0694 
+depth:           14.7798 
+Mrr:       -2.774472e+23 
+Mtt:       -3.482587e+23 
+Mpp:        6.257059e+23 
+Mrt:        3.273680e+23 
+Mrp:       -8.468684e+22 
+Mtp:        2.573002e+23 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:    1.5000 
+latitude:        37.9219 
+longitude:      138.0986 
+depth:           17.6477 
+Mrr:       -3.198159e+23 
+Mtt:       -2.538372e+24 
+Mpp:        2.858188e+24 
+Mrt:        1.696805e+24 
+Mrp:        4.838006e+23 
+Mtp:        2.250490e+24 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:   12.0000 
+latitude:        38.0651 
+longitude:      137.9525 
+depth:            3.3083 
+Mrr:       -4.503984e+22 
+Mtt:       -5.095373e+22 
+Mpp:        9.599356e+22 
+Mrt:        4.969758e+22 
+Mrp:       -1.526638e+22 
+Mtp:        3.666590e+22 
+{
+    "centroid_depth": 15.5,
+time shift:      35.0000 
+half duration:   12.0000 
+latitude:        37.8646 
+longitude:      138.1571 
+depth:           23.3834 
+Mrr:       -1.394911e+23 
+Mtt:       -1.001139e+23 
+Mpp:        2.396050e+23 
+Mrt:        1.182940e+23 
+Mrp:       -6.297810e+22 
+Mtp:        6.080514e+22 
