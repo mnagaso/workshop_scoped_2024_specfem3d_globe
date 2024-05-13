@@ -119,9 +119,8 @@ if __name__ == '__main__':
         alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
         alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
 
-        # invert the transfer function
-        alpha_kernelLUT.InvertTransferFunction()
-
+    # invert the transfer function
+    alpha_kernelLUT.InvertTransferFunction()
 
     # coast lines
     fname_coastline = "../AVS_boundaries_elliptical.inp"
