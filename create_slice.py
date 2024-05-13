@@ -87,39 +87,87 @@ if __name__ == '__main__':
         v_src_rec = np.array(p) - np.array(output_src.GetPoint(0))
         v_src_center = center - np.array(p)
         v_norm = np.cross(v_src_rec, v_src_center)
-
         slice.SliceType.Normal = v_norm
-
-        #slice.UpdatePipeline()
 
         slice1Display = Show(slice, renderView, 'GeometryRepresentation')
         slice1Display.Representation = 'Surface'
         slice1Display.SetScalarBarVisibility(renderView, True)
-        #Show(slice)
 
-        arrayInfo = slice.PointData["alpha_kl"]
-        print(arrayInfo)
-        range = arrayInfo.GetComponentRange(0)
-        print(range)
+        # set scalar coloring
+        ColorBy(slice1Display, ('POINTS', 'alpha_kernel'))
+        # rescale color and/or opacity maps used to include current data range
+        slice1Display.RescaleTransferFunctionToDataRange(True, False)
+        # show color bar/color legend
+        slice1Display.SetScalarBarVisibility(renderView, True)
+        # get color transfer function/color map for 'alpha_kernel'
+        alpha_kernelLUT = GetColorTransferFunction('alpha_kernel')
+        # get opacity transfer function/opacity map for 'alpha_kernel'
+        alpha_kernelPWF = GetOpacityTransferFunction('alpha_kernel')
+        # get 2D transfer function for 'alpha_kernel'
+        alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
+        # Rescale transfer function
+        alpha_kernelLUT.RescaleTransferFunction(-1e-23, 1e-23)
+        # Rescale transfer function
+        alpha_kernelPWF.RescaleTransferFunction(-1e-23, 1e-23)
+        # Rescale 2D transfer function
+        alpha_kernelTF2D.RescaleTransferFunction(-1e-23, 1e-23, 0.0, 1.0)
+        # get color legend/bar for alpha_kernelLUT in view renderView1
+        alpha_kernelLUTColorBar = GetScalarBar(alpha_kernelLUT, renderView)
+        # change scalar bar placement
+        alpha_kernelLUTColorBar.Orientation = 'Horizontal'
+        alpha_kernelLUTColorBar.WindowLocation = 'Any Location'
+        alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
+        alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
 
-        cmap = GetColorTransferFunction('alpha_kl')
-        #cmap.RescaleTransferFunction(range[0]/10, range[1]/10)
-        factor=50000
-        cmap.RGBPoints = [range[0]/factor, 0.23, 0.299, 0.754,
-                          0.0, 0.865, 0.865, 0.865,
-                          range[1]/factor, 0.706, 0.016, 0.150]
-        omap = GetOpacityTransferFunction('alpha_kl')
-        #omap.RescaleTransferFunction(range[0]/10, range[1]/10)
+        # invert the transfer function
+        alpha_kernelLUT.InvertTransferFunction()
 
+
+    # coast lines
+    fname_coastline = "../AVS_boundaries_elliptical.inp"
+    # create a new 'AVS UCD Reader'
+    aVS_boundaries_ellipticalinp = AVSUCDReader(registrationName='AVS_boundaries_elliptical.inp', FileNames=[fname_coastline])
+    # set active source
+    SetActiveSource(aVS_boundaries_ellipticalinp)
+    # show data in view
+    aVS_boundaries_ellipticalinpDisplay = Show(aVS_boundaries_ellipticalinp, renderView, 'UnstructuredGridRepresentation')
+    # trace defaults for the display properties.
+    aVS_boundaries_ellipticalinpDisplay.Representation = 'Surface'
+    # show color bar/color legend
+    aVS_boundaries_ellipticalinpDisplay.SetScalarBarVisibility(renderView, True)
+    # update the view to ensure updated data information
+    renderView.Update()
+    # get color transfer function/color map for 'Zcoord'
+    zcoordLUT = GetColorTransferFunction('Zcoord')
+    # turn off scalar coloring
+    ColorBy(aVS_boundaries_ellipticalinpDisplay, None)
+    # Hide the scalar bar for this color map if no visible data is colored by it.
+    HideScalarBarIfNotNeeded(zcoordLUT, renderView)
+    # change solid color
+    aVS_boundaries_ellipticalinpDisplay.AmbientColor = [1.0, 1.0, 1.0]
+    aVS_boundaries_ellipticalinpDisplay.DiffuseColor = [1.0, 1.0, 1.0]
 
 
     layout = GetLayout()
-    layout.SetSize(600, 500)
-    # change the center of rotation to mass center of the data
-    renderView.CenterOfRotation = slice.SliceType.Origin
-    # reset view to fit data
-    renderView.ResetCamera()
+    layout.SetSize(1103, 838)
 
-    Render()
-    Interact()
+    # view from south
+    #renderView.CameraPosition = [-0.5887903997623548, 2.803681072719318, -1.018517693499023]
+    #renderView.CameraFocalPoint = [-0.342757061123847, 0.3219155967235563, 0.42726002633571647]
+    #renderView.CameraViewUp = [-0.5706063130402489, 0.37041409881175547, 0.7329405370970339]
+    #renderView.CameraParallelScale = 1.0923619938785378
+    # view from north
+    renderView.CameraPosition = [-0.7655962333546708, -1.5952796160732157, 2.2850851066908113]
+    renderView.CameraFocalPoint = [-0.5001205052249119, 0.4860835075378399, 0.49414500594139166]
+    renderView.CameraViewUp = [-0.572003823461119, 0.5757051546753071, 0.5842732244644981]
+    renderView.CameraParallelScale = 0.8639217207980154
+
+    # interactive render
+    #Render()
+    #Interact()
+
+    # save screenshot
+    SaveScreenshot(output_dir+"/slice_"+str(id_rec)+".png", layout, SaveAllViews=1)
+
+
 
