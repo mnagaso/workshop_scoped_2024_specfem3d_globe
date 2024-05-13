@@ -162,8 +162,8 @@ if __name__ == '__main__':
     renderView.CameraParallelScale = 0.8639217207980154
 
     # interactive render
-    #Render()
-    #Interact()
+    Render()
+    Interact()
 
     # save screenshot
     SaveScreenshot(output_dir+"/slice_"+str(id_rec)+".png", layout, SaveAllViews=1)
