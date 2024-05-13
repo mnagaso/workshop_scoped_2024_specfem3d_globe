@@ -13,7 +13,7 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `_data_backup`: backup of the observed and synthetic seismograms, and QuakeML files used in the notebook.
 - `img`: images used in the notebook and README.md.
 
-# How to run the notebook
+## How to run the notebook
 
 - go to SCRATCH directory:
 ```bash
@@ -51,3 +51,21 @@ TACC: created reverse ports on Frontera logins
 TACC: Your jupyter notebook server is now running at https://frontera.tacc.utexas.edu:60188/?token=ee7153b2ec3569dabea24b66de63247efed8cf2e8f203036cc2f490c58321fc7
 ```
 
+## How to start the visualization job
+
+Stop current job for jupyter notebook by running the command below on the terminal:
+``` bash
+scancel -u $USER
+```
+
+Then, start a new job for the visualization by running the command below on the terminal:
+``` bash
+sbatch ./job.dcv
+```
+
+After the job is started, you will have the url for opening the visualization job environment, at the end of the output file `dcvserver.out`, e.g.
+```
+TACC: Your DCV session is now running!
+TACC: To connect to your DCV session, please point a modern web browser to:
+TACC:          https://frontera.tacc.utexas.edu:60036
+```
