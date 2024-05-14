@@ -99,25 +99,29 @@ if __name__ == '__main__':
         slice1Display.RescaleTransferFunctionToDataRange(True, False)
         # show color bar/color legend
         slice1Display.SetScalarBarVisibility(renderView, True)
-        # get color transfer function/color map for 'alpha_kernel'
-        alpha_kernelLUT = GetColorTransferFunction('alpha_kernel')
-        # get opacity transfer function/opacity map for 'alpha_kernel'
-        alpha_kernelPWF = GetOpacityTransferFunction('alpha_kernel')
-        # get 2D transfer function for 'alpha_kernel'
-        alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
-        # Rescale transfer function
-        alpha_kernelLUT.RescaleTransferFunction(-1e-23, 1e-23)
-        # Rescale transfer function
-        alpha_kernelPWF.RescaleTransferFunction(-1e-23, 1e-23)
-        # Rescale 2D transfer function
-        alpha_kernelTF2D.RescaleTransferFunction(-1e-23, 1e-23, 0.0, 1.0)
-        # get color legend/bar for alpha_kernelLUT in view renderView1
-        alpha_kernelLUTColorBar = GetScalarBar(alpha_kernelLUT, renderView)
-        # change scalar bar placement
-        alpha_kernelLUTColorBar.Orientation = 'Horizontal'
-        alpha_kernelLUTColorBar.WindowLocation = 'Any Location'
-        alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
-        alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
+
+    # get color transfer function/color map for 'alpha_kernel'
+    alpha_kernelLUT = GetColorTransferFunction('alpha_kernel')
+    # get opacity transfer function/opacity map for 'alpha_kernel'
+    alpha_kernelPWF = GetOpacityTransferFunction('alpha_kernel')
+    # get 2D transfer function for 'alpha_kernel'
+    alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
+    # vrange for alpha_kernel
+    vmin = -4e-1
+    vmax = 4e-1
+    # Rescale transfer function
+    alpha_kernelLUT.RescaleTransferFunction(vmin, vmax)
+    # Rescale transfer function
+    alpha_kernelPWF.RescaleTransferFunction(vmin, vmax)
+    # Rescale 2D transfer function
+    alpha_kernelTF2D.RescaleTransferFunction(vmin, vmax, 0.0, 1.0)
+    # get color legend/bar for alpha_kernelLUT in view renderView1
+    alpha_kernelLUTColorBar = GetScalarBar(alpha_kernelLUT, renderView)
+    # change scalar bar placement
+    alpha_kernelLUTColorBar.Orientation = 'Horizontal'
+    alpha_kernelLUTColorBar.WindowLocation = 'Any Location'
+    alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
+    alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
 
     # invert the transfer function
     alpha_kernelLUT.InvertTransferFunction()

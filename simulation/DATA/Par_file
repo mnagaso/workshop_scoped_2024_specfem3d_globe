@@ -76,7 +76,7 @@ ATTENUATION                     = .true.
 FULL_GRAVITY                    = .false.
 
 # record length in minutes
-RECORD_LENGTH_IN_MINUTES        = 30.0d0
+RECORD_LENGTH_IN_MINUTES        = 25.5d0
 
 #-----------------------------------------------------------
 #
