@@ -107,8 +107,8 @@ if __name__ == '__main__':
     # get 2D transfer function for 'alpha_kernel'
     alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
     # vrange for alpha_kernel
-    vmin = -4e-1
-    vmax = 4e-1
+    vmin = -1e-6
+    vmax = 1e-6
     # Rescale transfer function
     alpha_kernelLUT.RescaleTransferFunction(vmin, vmax)
     # Rescale transfer function
@@ -165,12 +165,11 @@ if __name__ == '__main__':
     renderView.CameraViewUp = [-0.572003823461119, 0.5757051546753071, 0.5842732244644981]
     renderView.CameraParallelScale = 0.8639217207980154
 
-    # interactive render
     Render()
-    Interact()
-
     # save screenshot
     SaveScreenshot(output_dir+"/slice_"+str(id_rec)+".png", layout, SaveAllViews=1)
+    # interactive render
+    Interact()
 
 
 
