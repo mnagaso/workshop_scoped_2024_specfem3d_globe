@@ -10,8 +10,12 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `data`: the data for the FWI demo, which will be downloaded after running the notebook.
 - `quakeml`: the QuakeML files for the FWI, which will be created after running the notebook.
 - `simulation`: a directory where we run forward/adjoint simulations with Specfem3D_globe. The essential files will be created here after running the notebook.
-- `_data_backup`: backup of the observed and synthetic seismograms, and QuakeML files used in the notebook.
 - `img`: images used in the notebook and README.md.
+- `shakemov_syn`: the synthetic waveform data downloaded from the ShakeMovie website.
+- `finite_fault`: the CMTSOLUTION files for the finite fault model.
+- `job.jupyter`: a job script for running the jupyter notebook on Frontera.
+- `job.dcv`: a job script for running the visualization job on Frontera.
+- `AVS_boundaries_elliptical.inp`: an AVS input file for plotting the coastlies.
 
 ## How to run the notebook
 
