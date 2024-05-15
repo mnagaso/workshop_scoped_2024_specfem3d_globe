@@ -107,8 +107,8 @@ if __name__ == '__main__':
     # get 2D transfer function for 'alpha_kernel'
     alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
     # vrange for alpha_kernel
-    vmin = -1e-6
-    vmax = 1e-6
+    vmin = -1.5e-6
+    vmax = 1.5e-6
     # Rescale transfer function
     alpha_kernelLUT.RescaleTransferFunction(vmin, vmax)
     # Rescale transfer function
@@ -122,6 +122,8 @@ if __name__ == '__main__':
     alpha_kernelLUTColorBar.WindowLocation = 'Any Location'
     alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
     alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
+
+    alpha_kernelLUT.ApplyPreset('Blue Orange (divergent)', True)
 
     # invert the transfer function
     alpha_kernelLUT.InvertTransferFunction()
