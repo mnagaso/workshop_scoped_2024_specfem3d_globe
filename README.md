@@ -15,7 +15,9 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `finite_fault`: the CMTSOLUTION files for the finite fault model.
 - `job.jupyter`: a job script for running the jupyter notebook on Frontera.
 - `job.dcv`: a job script for running the visualization job on Frontera.
+- `create_slice.py`: paraview python script for creating slices.
 - `AVS_boundaries_elliptical.inp`: an AVS input file for plotting the coastlies.
+- `paraview_red_to_blue_colormap.json`: a paraview colormap file for plotting kernel.
 
 ## How to run the notebook
 
