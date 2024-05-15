@@ -124,7 +124,7 @@ if __name__ == '__main__':
     alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
 
     # use custom colormap
-    ImportPresets(filename='../paraview_red_to_blue_colormap.json', location=16)
+    ImportPresets(filename='../paraview_red_to_blue_colormap.json')
     alpha_kernelLUT.ApplyPreset('RedYellowWhiteCyanBlue', True)
     alpha_kernelPWF.ApplyPreset('RedYellowWhiteCyanBlue', True)
 
