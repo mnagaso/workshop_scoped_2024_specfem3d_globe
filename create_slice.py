@@ -107,8 +107,8 @@ if __name__ == '__main__':
     # get 2D transfer function for 'alpha_kernel'
     alpha_kernelTF2D = GetTransferFunction2D('alpha_kernel')
     # vrange for alpha_kernel
-    vmin = -1.5e-6
-    vmax = 1.5e-6
+    vmin = -5e-7
+    vmax = 5e-7
     # Rescale transfer function
     alpha_kernelLUT.RescaleTransferFunction(vmin, vmax)
     # Rescale transfer function
