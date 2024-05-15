@@ -123,10 +123,14 @@ if __name__ == '__main__':
     alpha_kernelLUTColorBar.Position = [0.3448222424794894, 0.11209242618741988]
     alpha_kernelLUTColorBar.ScalarBarLength = 0.33000000000000046
 
-    alpha_kernelLUT.ApplyPreset('Blue Orange (divergent)', True)
+    # use custom colormap
+    ImportPresets(filename='../paraview_red_to_blue_colormap.json', location=16)
+    alpha_kernelLUT.ApplyPreset('RedYellowWhiteCyanBlue', True)
+    alpha_kernelPWF.ApplyPreset('RedYellowWhiteCyanBlue', True)
 
-    # invert the transfer function
-    alpha_kernelLUT.InvertTransferFunction()
+    # invert the transfer function (not necessary for this custom plot)
+    #alpha_kernelLUT.InvertTransferFunction()
+    #alpha_kernelPWF.InvertTransferFunction()
 
     # coast lines
     fname_coastline = "../AVS_boundaries_elliptical.inp"
