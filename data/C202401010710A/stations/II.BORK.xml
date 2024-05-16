@@ -5,7 +5,7 @@
   <Sender>IRIS-DMC</Sender>
   <Module>IRIS WEB SERVICE: fdsnws-station | version: 1.1.52</Module>
   <ModuleURI></ModuleURI>
-  <Created>2024-05-14T02:10:46.6357</Created>
+  <Created>2024-05-16T07:40:39.3512</Created>
   <Network code="II" startDate="1986-01-01T00:00:00.0000" restrictedStatus="open">
    <Description>Global Seismograph Network - IRIS/IDA (GSN)</Description>
    <Identifier type="DOI">10.7914/SN/II
