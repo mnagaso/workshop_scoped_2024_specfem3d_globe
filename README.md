@@ -19,7 +19,12 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `AVS_boundaries_elliptical.inp`: an AVS input file for plotting the coastlies.
 - `paraview_red_to_blue_colormap.json`: a paraview colormap file for plotting kernel.
 
-## How to run the notebook
+
+
+## 1. Log in to Frontera
+This example is designed to run on the Frontera supercomputer at TACC. To log in to Frontera, you need to have an account at TACC and authentication setup. If you don't have an account, please follow the instruction to setup it [here](https://seisscoped.org/HPS-book/chapters/HPC/intro.html).
+
+## 2. Run Jupyter notebook on Frontera
 
 - go to SCRATCH directory:
 ```bash
@@ -57,7 +62,7 @@ TACC: created reverse ports on Frontera logins
 TACC: Your jupyter notebook server is now running at https://frontera.tacc.utexas.edu:60188/?token=ee7153b2ec3569dabea24b66de63247efed8cf2e8f203036cc2f490c58321fc7
 ```
 
-## How to start the visualization job
+## 3. Run the visualization job on Frontera
 
 Stop current job for jupyter notebook by running the command below on the terminal:
 ``` bash
