@@ -7,3 +7,4 @@ simulation/DATA/CMTSOLUTION
 simulation/DATA/STATIONS
 simulation/DATA/STATIONS_ADJOINT
 
+adjoint_source_*.png
