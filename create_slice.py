@@ -89,6 +89,8 @@ if __name__ == '__main__':
         v_norm = np.cross(v_src_rec, v_src_center)
         slice.SliceType.Normal = v_norm
 
+        #print("slice: ", slice.SliceType.Origin, slice.SliceType.Normal)
+
         slice1Display = Show(slice, renderView, 'GeometryRepresentation')
         slice1Display.Representation = 'Surface'
         slice1Display.SetScalarBarVisibility(renderView, True)
