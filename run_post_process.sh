@@ -15,4 +15,4 @@ module load gcc/9 impi qt5/5.14.2 swr/21.2.5 oneapi_rk paraview
 # Create a slice image using paraview state file
 #
 # load paraview state file
-swr -p 1 paraview ./paraview_state.pvsm
+swr -p 1 paraview ./plot_kernel_slices_frontera.pvsm
