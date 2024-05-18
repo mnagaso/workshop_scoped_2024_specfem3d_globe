@@ -1,14 +1,14 @@
 <a href="https://seisscoped.org/"><img src="https://seisscoped.org/images/scoped_logo.jpg" alt="scoped" width="50" /></a>
 
-# The jupyter notebook and data for the 2024 SCOPED workshop
+# The jupyter notebook and data for the 2024 SCOPED workshop, SPECFEM3D_GLOBE session
 
 ![kernel](img/kernel.png)
 
 This repository contains the jupyter notebook and data for the 2024 SCOPED workshop. Below is a brief description of the files in this repository:
 
-- `data_processing_and_run_fwi_demo.ipynb`: A jupyter notebook that demonstrates how to process the data and run the FWI demo.
-- `data`: the data for the FWI demo, which will be downloaded after running the notebook.
-- `quakeml`: the QuakeML files for the FWI, which will be created after running the notebook.
+- `data_processing_and_kernel_comp.ipynb`: A jupyter notebook that demonstrates how to process the data and run a kernel computation.
+- `data`: the data for the demo, which will be downloaded in the notebook.
+- `quakeml`: the QuakeML files, which will be created after running the notebook.
 - `simulation`: a directory where we run forward/adjoint simulations with Specfem3D_globe. The essential files will be created here after running the notebook.
 - `img`: images used in the notebook and README.md.
 - `shakemov_syn`: the synthetic waveform data downloaded from the ShakeMovie website.
@@ -18,6 +18,7 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `create_slice.py`: paraview python script for creating slices.
 - `AVS_boundaries_elliptical.inp`: an AVS input file for plotting the coastlies.
 - `paraview_red_to_blue_colormap.json`: a paraview colormap file for plotting kernel.
+- `plot_kernel_slices_frontera.pvsm`: a paraview state file for plotting kernel slices.
 
 
 
