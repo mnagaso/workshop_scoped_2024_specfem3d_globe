@@ -33,7 +33,7 @@ cd $SCRATCH
 ```
 - Clone this repository:
 ```bash
-git clone https://github.com/mnagaso/workshop_scoped_2024.git
+git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
 ```
 - Submit the job:
 ```bash
