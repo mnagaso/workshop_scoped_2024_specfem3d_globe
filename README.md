@@ -20,6 +20,9 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `paraview_red_to_blue_colormap.json`: a paraview colormap file for plotting kernel.
 - `plot_kernel_slices_frontera.pvsm`: a paraview state file for plotting kernel slices.
 
+## 0. About this example
+Some parts of this example are designed to run on the Frontera supercomputer at TACC. 
+If you don't have access to Frontera, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the [Appendix](#appendix-running-the-notebook-on-your-local-machine) section.
 
 
 ## 1. Log in to Frontera
@@ -80,4 +83,45 @@ After the job is started, you will have the url for opening the visualization jo
 TACC: Your DCV session is now running!
 TACC: To connect to your DCV session, please point a modern web browser to:
 TACC:          https://frontera.tacc.utexas.edu:60036
+```
+
+
+## Appendix Running the notebook on your local machine
+
+If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
+
+Prepare the prerequisites:
+```bash
+pip install --user obspy cartopy jupyterlab
+```
+```bash
+pip uninstall -y urllib3
+pip install --user 'urllib3<2.0'
+```
+then launch the jupyter notebook:
+```bash
+jupyter-lab
+or
+jupyter-notebook
+or
+jupyter lab
+or
+jupyter notebook
+```
+
+then modify a line in the data_process_and_kernel_comp.ipynb (7th cell) for loading pre-calculated synthetic data as below:
+``` python
+
+# read and plot the raw data
+
+...
+
+# load the synthetic waveform data with 3D model (with SPECFEM3D_GLOBE)
+# use the result from the forward simulation
+#st_syn = obspy.read("./simulation/OUTPUT_FILES/*sac") # in sac format
+
+# use the precalculated synthetics with 3D model
+st_syn = obspy.read("./data/C202401010710A/waveforms_syn/*sac") # in sac format
+
+...
 ```
