@@ -40,7 +40,7 @@ git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
 ```
 - Submit the job:
 ```bash
-cd workshop_scoped_2024
+cd workshop_scoped_2024_specfem3d_globe
 sbatch job.jupyter
 ```
 - Check the job status:
@@ -83,6 +83,11 @@ After the job is started, you will have the url for opening the visualization jo
 TACC: Your DCV session is now running!
 TACC: To connect to your DCV session, please point a modern web browser to:
 TACC:          https://frontera.tacc.utexas.edu:60036
+```
+
+You can load the paraview module and the state file for plotting the kernel slices by running the command below on the terminal:
+``` bash
+./run_visualization.sh
 ```
 
 
