@@ -22,7 +22,7 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 
 ## 0. About this example
 Some parts of this example are designed to run on the Frontera supercomputer at TACC. 
-If you don't have access to Frontera, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the [Appendix](#appendix-running-the-notebook-on-your-local-machine) section.
+If you don't have access to Frontera, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the section [here](#run-the-notebook-on-your-local-machine) section.
 
 
 ## 1. Log in to Frontera
@@ -86,7 +86,7 @@ TACC:          https://frontera.tacc.utexas.edu:60036
 ```
 
 
-## Appendix Running the notebook on your local machine
+## Run the notebook on your local machine
 
 If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
 
