@@ -7,6 +7,7 @@
 This repository contains the jupyter notebook and data for the 2024 SCOPED workshop. Below is a brief description of the files in this repository:
 
 - `data_processing_and_kernel_comp.ipynb`: A jupyter notebook that demonstrates how to process the data and run a kernel computation.
+- `data_processing_and_kernel_comp_run_on_local.ipynb`: The same notebook as the above, but it is designed to run on local machines with docker. 
 - `data`: the data for the demo, which will be downloaded in the notebook.
 - `quakeml`: the QuakeML files, which will be created after running the notebook.
 - `simulation`: a directory where we run forward/adjoint simulations with Specfem3D_globe. The essential files will be created here after running the notebook.
@@ -21,8 +22,9 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `plot_kernel_slices_frontera.pvsm`: a paraview state file for plotting kernel slices.
 
 ## 0. About this example
-Some parts of this example are designed to run on the Frontera supercomputer at TACC. 
-If you don't have access to Frontera, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the section [here](#run-the-notebook-on-your-local-machine) section.
+Some parts of this example are designed to run on the Frontera supercomputer at TACC.
+If you don't have access to Frontera, but have a docker installed on your local machine, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the section [here](#run-the-notebook-on-your-local-machine) section. 
+If you don't have access to Frontera or no docker installation on your machine, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the section [here](#run-the-notebook-on-your-local-machine-without-wave-simulation) section.
 
 
 ## 1. Log in to Frontera
@@ -90,12 +92,25 @@ You can load the paraview module and the state file for plotting the kernel slic
 ./run_visualization.sh
 ```
 
-
 ## Run the notebook on your local machine
+This example may be run on the computers other than Frontera. If you have a docker installed on your machine with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
 
-If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
+Please note that the default setup for this setup takes more than 5 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
 
-Prepare the prerequisites:
+(x86_64 architecture is required for running the docker image, as the base image is not supported on ARM architecture.)
+
+### 1. Load the docker image
+```bash
+docker pull ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+```
+You may verify the image is downloaded by running the command below:
+```bash
+$ docker images
+REPOSITORY                        TAG           IMAGE ID       CREATED       SIZE
+ghcr.io/mnagaso/specfem3d_globe   centos7_mpi   6cab8b5522e7   3 days ago    5.55GB
+```
+
+### 2. Prepare the prerequisites:
 ```bash
 pip install --user obspy cartopy jupyterlab
 ```
@@ -103,7 +118,7 @@ pip install --user obspy cartopy jupyterlab
 pip uninstall -y urllib3
 pip install --user 'urllib3<2.0'
 ```
-then launch the jupyter notebook:
+### 3. Launch the jupyter server on your machine:
 ```bash
 jupyter-lab
 or
@@ -114,7 +129,36 @@ or
 jupyter notebook
 ```
 
-then modify a line in the data_process_and_kernel_comp.ipynb (7th cell) for loading pre-calculated synthetic data as below:
+### 4. Open the notebook 
+Open `data_processing_and_kernel_comp_run_on_local.ipynb` on the opened jupyter GUI.
+
+
+
+## Run the notebook on your local machine without wave simulation
+
+If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
+
+### 1. Prepare the prerequisites:
+```bash
+pip install --user obspy cartopy jupyterlab
+```
+```bash
+pip uninstall -y urllib3
+pip install --user 'urllib3<2.0'
+```
+### 2. then launch the jupyter notebook:
+```bash
+jupyter-lab
+or
+jupyter-notebook
+or
+jupyter lab
+or
+jupyter notebook
+```
+
+### 3. then modify a part of notebook cells
+Please modify the line in the data_process_and_kernel_comp.ipynb (7th cell) for loading pre-calculated synthetic data as below (to load the precalculated synthetics):
 ``` python
 
 # read and plot the raw data
