@@ -195,4 +195,10 @@ Open `workshop/data_processing_and_kernel_comp_run_with_docker.ipynb` on the ope
 
 If you don't have access to Frontera or any other clusters but only a laptop, you can still run the notebook on your local machine except for the wave simulation part. 
 
-For this, you can open `workshop/data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI. This notebook is skipping the cells for the wave simulation part, but loarding the pre-calculated data for calculating the adjoint sources.
+For this, you can open `workshop/data_processing_and_kernel_comp_on_local.ipynb` on the opened jupyter GUI. This notebook is skipping the cells for the wave simulation part, but loarding the pre-calculated data for calculating the adjoint sources.
+
+Then for the visualization part, you can download the pre-calculated data from [the google drive here](https://drive.google.com/drive/folders/1PxRvBAS9zUD3aZtw_3goVNDzMv0KFpoo?usp=sharing).
+
+Please replace the `simulation` directory in `workshop_scoped_2024_specfem3d_globe` with the downloaded `simulation` directory.
+
+Then you can load the paraview state file `plot_kernel_slices_frontera.pvsm` and visualize the kernel slices.
