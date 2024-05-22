@@ -7,7 +7,8 @@
 This repository contains the jupyter notebook and data for the 2024 SCOPED workshop. Below is a brief description of the files in this repository:
 
 - `data_processing_and_kernel_comp.ipynb`: A jupyter notebook that demonstrates how to process the data and run a kernel computation.
-- `data_processing_and_kernel_comp_run_on_local.ipynb`: The same notebook as the above, but it is designed to run on local machines with docker. 
+- `data_processing_and_kernel_comp_run_with_docker.ipynb`: The same notebook as the above, but it is designed to run on the machines with docker. 
+- `data_processing_and_kernel_comp_on_local.ipynb`: The same notebook as the above, but for running without wave simulations (for small PCs).
 - `data`: the data for the demo, which will be downloaded in the notebook.
 - `quakeml`: the QuakeML files, which will be created after running the notebook.
 - `simulation`: a directory where we run forward/adjoint simulations with Specfem3D_globe. The essential files will be created here after running the notebook.
@@ -28,7 +29,7 @@ This workshop material is designed for the participants who have different acces
 --> [Running this example on Frontera](#a-running-this-example-on-frontera)
 - B. Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI  
 --> [Running the notebook on a machine other than frontera with apptainer/singularity](#b-running-the-notebook-on-the-machine-other-than-frontera-with-apptainer-or-singularity)
-- C. Participants who don't have access to the HPC/Cluster/non-small local machine with apptainer/singularity, but with docker is installed.  
+- C. Participants who don't have access to the HPC/Cluster/local machine with apptainer/singularity, but with docker is installed.  
 --> [Running the notebook on a machine with docker](#c-running-the-notebook-on-a-machine-with-docker)  
 
 
@@ -214,3 +215,21 @@ Alternatively, you can load the files below for creating the visualization by yo
 - `simulation/OUTPUT_FILES/source.vtk`
 - `simulation/OUTPUT_FILES/receiver.vtk`
 - `./AVS_boundaries_elliptical.inp`
+
+
+
+
+## If you have a problem on running the docker image
+
+If you have a problem on running the docker image (you probably running on ARM architecture), you can prepare the python environment which installed the required packages by running the command below:
+
+```bash
+pip install obspy cartopy
+```
+then probably you need to install the specific version of urllib3:
+```bash
+pip uninstall -y urllib3
+pip install 'urllib3<2.0'
+```
+
+Then you can run the notebook `data_processing_and_kernel_comp_on_local.ipynb` on your local machine for the data processing and adjoint source calculation.
