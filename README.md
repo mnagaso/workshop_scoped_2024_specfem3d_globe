@@ -202,3 +202,15 @@ Then for the visualization part, you can download the pre-calculated data from [
 Please replace the `simulation` directory in `workshop_scoped_2024_specfem3d_globe` with the downloaded `simulation` directory.
 
 Then you can load the paraview state file `plot_kernel_slices_frontera.pvsm` and visualize the kernel slices.
+
+If you have a problem for loading the state file, you can create the slices by running the command below:
+```bash
+cd ./simulation
+pvpython ../create_slice.py OUTPUT_FILES OUTPUT_FILES/reg_1_alpha_kernel.vtu -1
+```
+
+Alternatively, you can load the files below for creating the visualization by yourself:
+- `simulation/OUTPUT_FILES/reg_1_alpha_kernel.vtu`
+- `simulation/OUTPUT_FILES/source.vtk`
+- `simulation/OUTPUT_FILES/receiver.vtk`
+- `./AVS_boundaries_elliptical.inp`
