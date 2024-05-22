@@ -25,13 +25,13 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 This workshop material is designed for the participants who have different access to the HPC or computing resources listed below. So please follow the corresponding section below to open and run the notebook.
 
 - A. Participants who have access to Frontera  
---> [Running this example on Frontera](#running-this-example-on-frontera)
+--> [Running this example on Frontera](#a-running-this-example-on-frontera)
 - B. Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI  
---> [running the notebook on a machine other than frontera with apptainer/singularity](#running-the-notebook-on-the-machine-other-than-frontera-with-apptainersingularity)
+--> [Running the notebook on a machine other than frontera with apptainer/singularity](#b-running-the-notebook-on-the-machine-other-than-frontera-with-apptainer-or-singularity)
 - C. Participants who have access to the HPC/Cluster/non-small local machine with docker installed  
---> [running the notebook on the machine with docker](#running-the-notebook-on-the-machine-with-docker)  
+--> [Running the notebook on the machine with docker](#c-running-the-notebook-on-the-machine-with-docker)  
 - D. Participants who can use a local laptop  
---> [running the notebook on your local machine without wave simulation](#runnig-the-notebook-on-your-local-machine-without-wave-simulation)
+--> [Running the notebook on your local machine without wave simulation](#d-run-the-notebook-on-your-local-machine-without-wave-simulation)
 
 
 ## A. Running this example on Frontera
@@ -102,7 +102,7 @@ You can load the paraview module and the state file for plotting the kernel slic
 ./run_visualization.sh
 ```
 
-## B. Running the notebook on the machine (other than Frontera) with Apptainer/Singularity
+## B. Running the notebook on the machine other than Frontera with Apptainer or Singularity
 
 If you have an account on any other cluster than Frontera, but which 
 - supports Apptainer/Singularity,
@@ -151,7 +151,7 @@ Please submit the jupyter job on your machine, then open the notebook `data_proc
 ## C. Running the notebook on the machine with docker
 If you have a PC/cluster docker installed with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
 
-Please note that the default setup for this setup takes more than 5 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
+Please note that the default setup for this setup takes more than 3 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
 
 (x86_64 architecture is required for running the docker image, as the base image is not supported on ARM architecture.)
 
@@ -206,7 +206,18 @@ pip install --user obspy cartopy jupyterlab
 pip uninstall -y urllib3
 pip install --user 'urllib3<2.0'
 ```
-### 2. then launch the jupyter notebook:
+
+### 2. Clone this repository:
+```bash
+git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
+```
+        
+then `cd` to the cloned directory:
+```bash
+cd workshop_scoped_2024_specfem3d_globe
+```
+
+### 3. then launch the jupyter notebook:
 ```bash
 jupyter-lab
 or
