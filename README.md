@@ -21,16 +21,21 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 - `paraview_red_to_blue_colormap.json`: a paraview colormap file for plotting kernel.
 - `plot_kernel_slices_frontera.pvsm`: a paraview state file for plotting kernel slices.
 
-## 0. About this example
-Some parts of this example are designed to run on the Frontera supercomputer at TACC.
-If you don't have access to Frontera, but have a docker installed on your local machine, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the section [here](#run-the-notebook-on-your-local-machine) section. 
-If you don't have access to Frontera or no docker installation on your machine, you can still run the notebook on your local machine to do a data processing and calculation adjoint source. For running this on your local machine, please follow the section [here](#run-the-notebook-on-your-local-machine-without-wave-simulation) section.
+## About this example
+This workshop material is designed for the participants who have different access to the HPC or computing resources listed below. So please follow the corresponding section below to open and run the notebook.
+
+- [Participants who have access to Frontera](#running-this-example-on-frontera)
+- [Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI](#running-the-notebook-on-the-machine-other-than-frontera-with-apptainersingularity)
+- [Participants who have access to the HPC/Cluster/non-small local machine with docker installed](#running-the-notebook-on-the-machine-with-docker)
+- [Participants who can use a local laptop](#run-the-notebook-on-your-local-machine-without-wave-simulation)
 
 
-## 1. Log in to Frontera
+## Running this example on Frontera
+
+### 1. Log in to Frontera
 This example is designed to run on the Frontera supercomputer at TACC. To log in to Frontera, you need to have an account at TACC and authentication setup. If you don't have an account, please follow the instruction to setup it [here](https://seisscoped.org/HPS-book/chapters/HPC/intro.html).
 
-## 2. Run Jupyter notebook on Frontera
+### 2. Run Jupyter notebook on Frontera
 
 - go to SCRATCH directory:
 ```bash
@@ -43,8 +48,10 @@ git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
 - Submit the job:
 ```bash
 cd workshop_scoped_2024_specfem3d_globe
-sbatch job.jupyter
+sbatch -A EAR23006 --reservation=RESERVATION_NAME job.jupyter
 ```
+This `RESERVATION_NAME` will be provided during the workshop.
+
 - Check the job status:
 ```bash
 squeue -u $USER
@@ -68,7 +75,7 @@ TACC: created reverse ports on Frontera logins
 TACC: Your jupyter notebook server is now running at https://frontera.tacc.utexas.edu:60188/?token=ee7153b2ec3569dabea24b66de63247efed8cf2e8f203036cc2f490c58321fc7
 ```
 
-## 3. Run the visualization job on Frontera
+### 3. Run the visualization job on Frontera
 
 Stop current job for jupyter notebook by running the command below on the terminal:
 ``` bash
@@ -77,8 +84,9 @@ scancel -u $USER
 
 Then, start a new job for the visualization by running the command below on the terminal:
 ``` bash
-sbatch ./job.dcv
+sbatch -A EAR23006 --reservation=RESERVATION_NAME ./job.dcv
 ```
+Again, this `RESERVATION_NAME` will be provided during the workshop.
 
 After the job is started, you will have the url for opening the visualization job environment, at the end of the output file `dcvserver.out`, e.g.
 ```
@@ -92,8 +100,54 @@ You can load the paraview module and the state file for plotting the kernel slic
 ./run_visualization.sh
 ```
 
-## Run the notebook on your local machine
-This example may be run on the computers other than Frontera. If you have a docker installed on your machine with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
+## Running the notebook on the machine (other than Frontera) with Apptainer/Singularity
+
+If you have an account on any other cluster than Frontera, but which 
+- supports Apptainer/Singularity,
+- intel mpi of v19.0.7 or close version is installed,
+- and jupyter job is available,
+
+you may run the example notebook on this cluster. Please follow the instruction below.
+
+### 1. Prepare the apptainer/singularity image:
+
+After `cd` to your convenient directory, clone this repository:
+```bash
+git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
+```
+then probably you need to load apptainer/singularity module:
+```bash
+module load apptainer
+```
+or 
+```bash
+module load singularity
+```
+then pull the docker image:
+```bash
+apptainer pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+```
+or if you use singularity:
+```bash
+singularity pull docker://ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+```
+
+### 2. Prepare the prerequisites:
+```bash
+pip install --user obspy cartopy
+```
+and use the specific version of urllib3:
+```bash
+pip uninstall -y urllib3
+pip install --user 'urllib3<2.0'
+```
+
+### 3. Launch the jupyter server on your machine:
+Please submit the jupyter job on your machine, then open the notebook `data_processing_and_kernel_comp.ipynb` on the opened jupyter GUI.
+
+
+## Running the notebook on the machine with docker
+If you have a PC/cluster docker installed with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
 
 Please note that the default setup for this setup takes more than 5 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
 
@@ -130,7 +184,7 @@ jupyter notebook
 ```
 
 ### 4. Open the notebook 
-Open `data_processing_and_kernel_comp_run_on_local.ipynb` on the opened jupyter GUI.
+Open `data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI.
 
 
 
@@ -157,20 +211,4 @@ or
 jupyter notebook
 ```
 
-### 3. then modify a part of notebook cells
-Please modify the line in the data_process_and_kernel_comp.ipynb (7th cell) for loading pre-calculated synthetic data as below (to load the precalculated synthetics):
-``` python
-
-# read and plot the raw data
-
-...
-
-# load the synthetic waveform data with 3D model (with SPECFEM3D_GLOBE)
-# use the result from the forward simulation
-#st_syn = obspy.read("./simulation/OUTPUT_FILES/*sac") # in sac format
-
-# use the precalculated synthetics with 3D model
-st_syn = obspy.read("./data/C202401010710A/waveforms_syn/*sac") # in sac format
-
-...
-```
+then open the notebook `data_processing_and_kernel_comp_on_local.ipynb` on the opened jupyter GUI.
