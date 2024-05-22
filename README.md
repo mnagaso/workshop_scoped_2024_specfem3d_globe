@@ -178,11 +178,19 @@ cd workshop_scoped_2024_specfem3d_globe
 
 ### 3. Launch the jupyter server on your machine:
 ```bash
-docker run -it --rm -p 8888:8888 -v $(pwd):/workshop ghcr.io/mnagaso/specfem3d_globe:centos7
+docker run -it --rm -p 8888:8888 -v $(pwd):/home/scoped/workshop ghcr.io/mnagaso/specfem3d_globe:centos7
 ```
+On Windows cmd, you may need to replace `$(pwd)` with `%cd%`.
+On Windows PowerShell, you may need to replace `$(pwd)` with `${PWD}`.
+
+Then, you will see the output like below:
+```bash
+[I 2022-05-22 06:00:00.000 JupyterHubApp] JupyterHub is now running at http://127.0.0.1:8888/lab?token=...
+```
+You can open the jupyter GUI by clicking the link above.
 
 ### 4. Open the notebook 
-Open `data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI.
+Open `workshop/data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI.
 
 
 
