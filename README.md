@@ -28,8 +28,8 @@ This workshop material is designed for the participants who have different acces
 --> [Running this example on Frontera](#a-running-this-example-on-frontera)
 - B. Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI  
 --> [Running the notebook on a machine other than frontera with apptainer/singularity](#b-running-the-notebook-on-the-machine-other-than-frontera-with-apptainer-or-singularity)
-- C. Participants who have access to the HPC/Cluster/non-small local machine with docker installed  
---> [Running the notebook on the machine with docker](#c-running-the-notebook-on-the-machine-with-docker)  
+- C. Participants who don't have access to the HPC/Cluster/non-small local machine with apptainer/singularity, but with docker is installed.  
+--> [Running the notebook on a machine with docker](#c-running-the-notebook-on-a-machine-with-docker)  
 
 
 ## A. Running this example on Frontera
@@ -143,10 +143,10 @@ pip install --user 'urllib3<2.0'
 ```
 
 ### 3. Launch the jupyter server on your machine:
-Please submit the jupyter job on your machine, then open the notebook `data_processing_and_kernel_comp.ipynb` on the opened jupyter GUI.
+Please submit the jupyter job on your machine with requesting `36 mpi processors`, then open the notebook `data_processing_and_kernel_comp.ipynb` on the opened jupyter GUI.
 
 
-## C. Running the notebook on the machine with docker
+## C. Running the notebook on a machine with docker
 If you have a PC/cluster docker installed with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
 
 Please note that the default setup for this setup takes more than 3 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
