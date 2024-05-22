@@ -30,8 +30,6 @@ This workshop material is designed for the participants who have different acces
 --> [Running the notebook on a machine other than frontera with apptainer/singularity](#b-running-the-notebook-on-the-machine-other-than-frontera-with-apptainer-or-singularity)
 - C. Participants who have access to the HPC/Cluster/non-small local machine with docker installed  
 --> [Running the notebook on the machine with docker](#c-running-the-notebook-on-the-machine-with-docker)  
-- D. Participants who can use a local laptop  
---> [Running the notebook on your local machine without wave simulation](#d-run-the-notebook-on-your-local-machine-without-wave-simulation)
 
 
 ## A. Running this example on Frontera
@@ -193,39 +191,8 @@ You can open the jupyter GUI by clicking the link above.
 Open `workshop/data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI.
 
 
+### 5. Run the notebook on your local machine without wave simulation
 
-## D. Run the notebook on your local machine without wave simulation
+If you don't have access to Frontera or any other clusters but only a laptop, you can still run the notebook on your local machine except for the wave simulation part. 
 
-If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
-
-### 1. Prepare the prerequisites:
-```bash
-pip install --user obspy cartopy jupyterlab
-```
-```bash
-pip uninstall -y urllib3
-pip install --user 'urllib3<2.0'
-```
-
-### 2. Clone this repository:
-```bash
-git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
-```
-        
-then `cd` to the cloned directory:
-```bash
-cd workshop_scoped_2024_specfem3d_globe
-```
-
-### 3. then launch the jupyter notebook:
-```bash
-jupyter-lab
-or
-jupyter-notebook
-or
-jupyter lab
-or
-jupyter notebook
-```
-
-then open the notebook `data_processing_and_kernel_comp_on_local.ipynb` on the opened jupyter GUI.
+For this, you can open `workshop/data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyter GUI. This notebook is skipping the cells for the wave simulation part, but loarding the pre-calculated data for calculating the adjoint sources.
