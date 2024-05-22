@@ -24,13 +24,17 @@ This repository contains the jupyter notebook and data for the 2024 SCOPED works
 ## About this example
 This workshop material is designed for the participants who have different access to the HPC or computing resources listed below. So please follow the corresponding section below to open and run the notebook.
 
-- [Participants who have access to Frontera](#running-this-example-on-frontera)
-- [Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI](#running-the-notebook-on-the-machine-other-than-frontera-with-apptainersingularity)
-- [Participants who have access to the HPC/Cluster/non-small local machine with docker installed](#running-the-notebook-on-the-machine-with-docker)
-- [Participants who can use a local laptop](#run-the-notebook-on-your-local-machine-without-wave-simulation)
+- A. Participants who have access to Frontera  
+--> [Running this example on Frontera](#running-this-example-on-frontera)
+- B. Participants who have access to the HPC/Custer with Apptainer/Singularity and compatible MPI  
+--> [running the notebook on a machine other than frontera with apptainer/singularity](#running-the-notebook-on-the-machine-other-than-frontera-with-apptainersingularity)
+- C. Participants who have access to the HPC/Cluster/non-small local machine with docker installed  
+--> [running the notebook on the machine with docker](#running-the-notebook-on-the-machine-with-docker)  
+- D. Participants who can use a local laptop  
+--> [running the notebook on your local machine without wave simulation](#runnig-the-notebook-on-your-local-machine-without-wave-simulation)
 
 
-## Running this example on Frontera
+## A. Running this example on Frontera
 
 ### 1. Log in to Frontera
 This example is designed to run on the Frontera supercomputer at TACC. To log in to Frontera, you need to have an account at TACC and authentication setup. If you don't have an account, please follow the instruction to setup it [here](https://seisscoped.org/HPS-book/chapters/HPC/intro.html).
@@ -100,7 +104,7 @@ You can load the paraview module and the state file for plotting the kernel slic
 ./run_visualization.sh
 ```
 
-## Running the notebook on the machine (other than Frontera) with Apptainer/Singularity
+## B. Running the notebook on the machine (other than Frontera) with Apptainer/Singularity
 
 If you have an account on any other cluster than Frontera, but which 
 - supports Apptainer/Singularity,
@@ -146,7 +150,7 @@ pip install --user 'urllib3<2.0'
 Please submit the jupyter job on your machine, then open the notebook `data_processing_and_kernel_comp.ipynb` on the opened jupyter GUI.
 
 
-## Running the notebook on the machine with docker
+## C. Running the notebook on the machine with docker
 If you have a PC/cluster docker installed with sufficient RAM and disk space, you can run the notebook including forward and adjoint simulation with Specfem3D_globe on your local machine. Please follow the instruction below.
 
 Please note that the default setup for this setup takes more than 5 hours with 4 MPI processes, so **you cannot finish the calculation within the workshop time frame**, uneless you have a powerful machine and increase the number of MPI processes.
@@ -188,7 +192,7 @@ Open `data_processing_and_kernel_comp_run_with_docker.ipynb` on the opened jupyt
 
 
 
-## Run the notebook on your local machine without wave simulation
+## D. Run the notebook on your local machine without wave simulation
 
 If you don't have access to Frontera, you can still run the notebook on your local machine. Here is a brief instruction on how to run the notebook on your local machine:
 
