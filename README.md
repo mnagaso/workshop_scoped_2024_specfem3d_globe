@@ -52,9 +52,8 @@ git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
 - Submit the job:
 ```bash
 cd workshop_scoped_2024_specfem3d_globe
-sbatch -A EAR23006 --reservation=RESERVATION_NAME job.jupyter
+sbatch -A EAR23006 --reservation=SCOPED_May22_3pm job.jupyter
 ```
-This `RESERVATION_NAME` will be provided during the workshop.
 
 - Check the job status:
 ```bash
@@ -88,9 +87,8 @@ scancel -u $USER
 
 Then, start a new job for the visualization by running the command below on the terminal:
 ``` bash
-sbatch -A EAR23006 --reservation=RESERVATION_NAME ./job.dcv
+sbatch -A EAR23006 --reservation=SCOPED_May22_3pm ./job.dcv
 ```
-Again, this `RESERVATION_NAME` will be provided during the workshop.
 
 After the job is started, you will have the url for opening the visualization job environment, at the end of the output file `dcvserver.out`, e.g.
 ```
@@ -159,32 +157,28 @@ Please note that the default setup for this setup takes more than 5 hours with 4
 
 ### 1. Load the docker image
 ```bash
-docker pull ghcr.io/mnagaso/specfem3d_globe:centos7_mpi
+docker pull ghcr.io/mnagaso/specfem3d_globe:centos7
 ```
 You may verify the image is downloaded by running the command below:
 ```bash
 $ docker images
 REPOSITORY                        TAG           IMAGE ID       CREATED       SIZE
-ghcr.io/mnagaso/specfem3d_globe   centos7_mpi   6cab8b5522e7   3 days ago    5.55GB
+ghcr.io/mnagaso/specfem3d_globe   centos7   6cab8b5522e7   3 days ago    5.55GB
 ```
 
-### 2. Prepare the prerequisites:
+### 2. Clone this repository:
 ```bash
-pip install --user obspy cartopy jupyterlab
+git clone https://github.com/mnagaso/workshop_scoped_2024_specfem3d_globe.git
 ```
+
+then `cd` to the cloned directory:
 ```bash
-pip uninstall -y urllib3
-pip install --user 'urllib3<2.0'
+cd workshop_scoped_2024_specfem3d_globe
 ```
+
 ### 3. Launch the jupyter server on your machine:
 ```bash
-jupyter-lab
-or
-jupyter-notebook
-or
-jupyter lab
-or
-jupyter notebook
+docker run -it --rm -p 8888:8888 -v $(pwd):/workshop ghcr.io/mnagaso/specfem3d_globe:centos7
 ```
 
 ### 4. Open the notebook 
