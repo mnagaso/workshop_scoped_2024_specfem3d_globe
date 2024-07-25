@@ -67,7 +67,7 @@ squeue -u $USER
         6247768 development tap_jupy  mnagaso  R       0:00      1 c201-022
 ```
 
-It takes about 1 mintue or so to finishing a initial setup. Then, you can access the jupyter notebook server by openning the link indicated at the last of the `jupyter.out` file. 
+It takes about 1 mintue or so to finishing an initial setup. Then, you can access the jupyter notebook server by openning the link indicated at the last of the `jupyter.out` file. 
 
 This link is something like:
 ```
