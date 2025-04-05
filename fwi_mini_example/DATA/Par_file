@@ -5,9 +5,9 @@
 #-----------------------------------------------------------
 
 # forward or adjoint simulation
-SIMULATION_TYPE                 = 3   # set to 1 for forward simulations, 2 for adjoint simulations for sources, and 3 for kernel simulations
+SIMULATION_TYPE                 = 1   # set to 1 for forward simulations, 2 for adjoint simulations for sources, and 3 for kernel simulations
 NOISE_TOMOGRAPHY                = 0   # flag of noise tomography, three steps (1,2,3). If earthquake simulation, set it to 0.
-SAVE_FORWARD                    = .false.
+SAVE_FORWARD                    = .true.
 
 # number of chunks (1,2,3 or 6)
 NCHUNKS                         = 1
@@ -408,7 +408,7 @@ BROADCAST_SAME_MESH_AND_MODEL   = .true.
 #-----------------------------------------------------------
 
 # set to true to use GPUs
-GPU_MODE                        = .true.
+GPU_MODE                        = .false.
 # Only used if GPU_MODE = .true. :
 GPU_RUNTIME                     = 1
 # 2 (OpenCL), 1 (Cuda) ou 0 (Compile-time -- does not work if configured with --with-cuda *AND* --with-opencl)
